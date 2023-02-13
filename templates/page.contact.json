@@ -1,7 +1,11 @@
 {
   "sections": {
     "main": {
-      "type": "contact-form-custom"
+      "type": "contact-form-custom",
+      "settings": {
+        "heading": "Let’s talk",
+        "image": "shopify:\/\/shop_images\/contact-plan.png"
+      }
     }
   },
   "order": [
