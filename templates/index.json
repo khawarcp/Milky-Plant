@@ -10,9 +10,20 @@
         "image": "shopify:\/\/shop_images\/4.png",
         "background_image": "shopify:\/\/shop_images\/5.png"
       }
+    },
+    "55d246fe-1e43-42ac-a72c-9713ce5e3735": {
+      "type": "index-recipe",
+      "settings": {
+        "blog": "news",
+        "button_text": "read recipes",
+        "button_url": "shopify:\/\/blogs\/news",
+        "show_all": false,
+        "background_image": "shopify:\/\/shop_images\/17.png"
+      }
     }
   },
   "order": [
-    "6c616b1e-2cf8-4b55-8118-cccdec42aede"
+    "6c616b1e-2cf8-4b55-8118-cccdec42aede",
+    "55d246fe-1e43-42ac-a72c-9713ce5e3735"
   ]
 }
