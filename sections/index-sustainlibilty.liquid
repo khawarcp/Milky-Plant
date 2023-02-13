@@ -23,3 +23,46 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Sustainability",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      }, {
+        "type": "inline_richtext",
+        "id": "text",
+        "label": "Text"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Sustainability"
+      }
+    ]
+  }
+{% endschema %}
