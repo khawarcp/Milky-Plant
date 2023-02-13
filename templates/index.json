@@ -103,9 +103,17 @@
       "settings": {
         "heading": "Our Story",
         "info": "“The idea for Milky Plant comes after years of searching for clean and affordable plant-based milk. After being diagnosed with high cholesterol, I wanted to find a way to make healthy plant-based milk at home. No saturated fats, additives or preservatives, just 100% pure ingredients - so you’re in control of what goes into your body.”",
+        "author": "- Micheal & Nadina, Founders",
         "button_text": "read our story",
         "button_url": "",
         "image": "shopify:\/\/shop_images\/14.png"
+      }
+    },
+    "061f6022-7043-41b3-ac2b-c24efa71a299": {
+      "type": "index-instagram",
+      "settings": {
+        "heading": "Join the community",
+        "short_code": "<div id=\"insta-feed\"><\/div>"
       }
     }
   },
@@ -115,6 +123,7 @@
     "73abf198-93f2-408a-a11e-749be057cf81",
     "80c6f5a9-d887-448a-adf2-5f9382599856",
     "6e621310-fc01-46e6-80f6-191b2d5aea36",
-    "1e3c0d7b-2694-4997-a418-477ba629038a"
+    "1e3c0d7b-2694-4997-a418-477ba629038a",
+    "061f6022-7043-41b3-ac2b-c24efa71a299"
   ]
 }
