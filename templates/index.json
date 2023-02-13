@@ -14,10 +14,11 @@
     "55d246fe-1e43-42ac-a72c-9713ce5e3735": {
       "type": "index-recipe",
       "settings": {
+        "heading": "Recipes",
         "blog": "news",
         "button_text": "read recipes",
         "button_url": "shopify:\/\/blogs\/news",
-        "show_all": false,
+        "show_all": true,
         "background_image": "shopify:\/\/shop_images\/17.png"
       }
     }
