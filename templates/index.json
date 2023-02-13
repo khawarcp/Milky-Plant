@@ -69,12 +69,40 @@
         "image_2": "shopify:\/\/shop_images\/10.png",
         "background_image": "shopify:\/\/shop_images\/21.png"
       }
+    },
+    "6e621310-fc01-46e6-80f6-191b2d5aea36": {
+      "type": "index-sustainlibilty",
+      "blocks": {
+        "6085d201-a775-4817-9514-0bf2e0147e30": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
+            "heading": "Designed with love in the U.K."
+          }
+        },
+        "c2a7a5ae-b709-49b8-9d9f-60feea9266aa": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.png",
+            "heading": "Ethical manufacturing"
+          }
+        }
+      },
+      "block_order": [
+        "6085d201-a775-4817-9514-0bf2e0147e30",
+        "c2a7a5ae-b709-49b8-9d9f-60feea9266aa"
+      ],
+      "settings": {
+        "heading": "Sustainability",
+        "text": "At Milky Plant, we are committed to creating new ways to design, produce and innovate. Our products will no longer be seen as waste at their end of life, but rather as sources of valuable resources for new products. We offer a free end-of-life recycling program for all of our customers. If you're ready to part ways with your Milky Plant machine, we will receive it, reuse and upcycle all of Milky Plant parts."
+      }
     }
   },
   "order": [
     "6c616b1e-2cf8-4b55-8118-cccdec42aede",
     "55d246fe-1e43-42ac-a72c-9713ce5e3735",
     "73abf198-93f2-408a-a11e-749be057cf81",
-    "80c6f5a9-d887-448a-adf2-5f9382599856"
+    "80c6f5a9-d887-448a-adf2-5f9382599856",
+    "6e621310-fc01-46e6-80f6-191b2d5aea36"
   ]
 }
