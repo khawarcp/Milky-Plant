@@ -97,6 +97,16 @@
         "text": "At Milky Plant, we are committed to creating new ways to design, produce and innovate. Our products will no longer be seen as waste at their end of life, but rather as sources of valuable resources for new products. We offer a free end-of-life recycling program for all of our customers. If you're ready to part ways with your Milky Plant machine, we will receive it, reuse and upcycle all of Milky Plant parts.",
         "image": "shopify:\/\/shop_images\/recycling-program-1_7637c02f-a479-4a92-87aa-86a21d179e72.png"
       }
+    },
+    "1e3c0d7b-2694-4997-a418-477ba629038a": {
+      "type": "index-story",
+      "settings": {
+        "heading": "Our Story",
+        "info": "“The idea for Milky Plant comes after years of searching for clean and affordable plant-based milk. After being diagnosed with high cholesterol, I wanted to find a way to make healthy plant-based milk at home. No saturated fats, additives or preservatives, just 100% pure ingredients - so you’re in control of what goes into your body.”",
+        "button_text": "read our story",
+        "button_url": "",
+        "image": "shopify:\/\/shop_images\/14.png"
+      }
     }
   },
   "order": [
@@ -104,6 +114,7 @@
     "55d246fe-1e43-42ac-a72c-9713ce5e3735",
     "73abf198-93f2-408a-a11e-749be057cf81",
     "80c6f5a9-d887-448a-adf2-5f9382599856",
-    "6e621310-fc01-46e6-80f6-191b2d5aea36"
+    "6e621310-fc01-46e6-80f6-191b2d5aea36",
+    "1e3c0d7b-2694-4997-a418-477ba629038a"
   ]
 }
