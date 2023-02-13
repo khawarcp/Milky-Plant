@@ -1,5 +1,7 @@
 {% if image != blank %}
   <img
+    width="{{ image.width }}"
+    height=""
     srcset="
   {%- if image.width >= 165 -%}
     {{ image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -14,10 +16,10 @@
   {%- if image.width >= 1066 -%}
     {{ image | image_url: width: 1066 }} 1066w,{%- endif -%}
   {{ image | image_url }} {{ image.width }}w
-      "src="{{ image | image_url: width: 2000 }}"
+                  "src="{{ image | image_url: width: 2000 }}"
   alt="{{ image.alt | escape }}"
   class="motion-reduce"
-  {% unless lazy_load == false %}loading="lazy"{% endunless %}width="{{ image.width }}"height="">
+  loading="lazy">
 {% else %}
   {{ 'image' | placeholder_svg_tag: "placeholder-svg placeholder" }}
 {% endif %}
