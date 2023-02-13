@@ -1,12 +1,13 @@
 <div class="impact" style="background-image: url('{{ section.settings.background_image | image_url : width : section.settings.background_image.width }}');">
   <div class="container">
-    <img src="./images/9.png">
-    <h2>Our Impact</h2>
+    {% render 'responsive-image', image: section.settings.image_1 %}
+    <h2>
+      {{ section.settings.heading }}
+    </h2>
     <div class="paraWrapper">
-      <img src="./images/10.png">
+      {% render 'responsive-image', image: section.settings.image_2 %}
       <div class="parWrapper">
-        <p>We donate 1% of all our proceeds to the world’s most pressing environmental and social issues such as deforestation , renewable energy creation and so much more.</p>
-        <p>We have planted over 10,000 trees to help the fight against climate change.</p>
+        {{ section.settings.info }}
       </div>
     </div>
   </div>
@@ -20,7 +21,7 @@
         "type": "text",
         "id": "heading",
         "label": "Heading",
-        "default": "Milky Plant"
+        "default": "Our Impact"
       },
       {
         "type": "richtext",
