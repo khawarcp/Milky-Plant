@@ -1,12 +1,25 @@
-<div class="banenrWrapper" style="background-image: url('./images/5.png');">
-  <div class="container">
-    <div class="leftBannerWrapper">
-      <h2>Milky Plant</h2>
-      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do tamet.</p>
-      <a href="#">LEARN MORE</a>
+<div
+  class="banenrWrapper"
+  loading="lazy"
+  style="background-image: url('{{ section.settings.background_image | image_url : width : section.settings.background_image.width }}');">
+  <div
+    class="container">
+    <div
+      class="leftBannerWrapper">
+      <h2>
+        {{ section.settings.heading }}
+      </h2>
+      <p>
+        {{ section.settings.info }}
+      </p>
+      {% if section.settings.button_text != blank %}
+        <a
+          href="{{ section.settings.button_url }}">{{ section.settings.button_text }}</a>
+      {% endif %}
     </div>
-    <div class="productWrapperBanner">
-      <img src="./images/4.png">
+    <div
+      class="productWrapperBanner">
+      {% render 'responsive-image', image: section.settings.image %}
     </div>
   </div>
 </div>
