@@ -542,7 +542,7 @@ span.plusSignBuyNow {
 .story {
     background: linear-gradient(123.32deg, #F9CDC7 -1.26%, #EDD2FF 54.63%, #D3AFE0 110.52%);
     padding: 170px 0px;
-    background-image: url('./images/23.png');
+    background-image: url('23.png');
     background-size: 100% 100%;
 }
 
