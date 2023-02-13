@@ -1,4 +1,4 @@
-<div class="impact" style="background-image: url('./images/21.png');">
+<div class="impact" style="background-image: url('{{ section.settings.background_image | image_url : width : section.settings.background_image.width }}');">
   <div class="container">
     <img src="./images/9.png">
     <h2>Our Impact</h2>
@@ -11,3 +11,41 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Impact",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Milky Plant"
+      },
+      {
+        "type": "richtext",
+        "id": "info",
+        "label": "Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image 2"
+      }, {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Impact"
+      }
+    ]
+  }
+{% endschema %}
