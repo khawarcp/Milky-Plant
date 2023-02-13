@@ -1,0 +1,56 @@
+<div class="banenrWrapper" style="background-image: url('./images/5.png');">
+  <div class="container">
+    <div class="leftBannerWrapper">
+      <h2>Milky Plant</h2>
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do tamet.</p>
+      <a href="#">LEARN MORE</a>
+    </div>
+    <div class="productWrapperBanner">
+      <img src="./images/4.png">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Milky Plant"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "info",
+        "label": "Text",
+        "default": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do tamet."
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "LEARN MORE"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }, {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Banner"
+      }
+    ]
+  }
+{% endschema %}
