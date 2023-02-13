@@ -52,3 +52,44 @@
   </div>
   <a href="#">read recipes</a>
 </div>
+{% schema %}
+  {
+    "name": "Recipes",
+    "settings": [
+      {
+        "type": "blog",
+        "id": "blog",
+        "label": "Blog"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "read recipes"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }, {
+        "type": "checkbox",
+        "id": "show_all",
+        "label": "Show All Recipes"
+      }, {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Recipes"
+      }
+    ]
+  }
+{% endschema %}
