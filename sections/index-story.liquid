@@ -1,13 +1,58 @@
-<div class="story">
-  <div class="container">
-    <div class="imageWrapper">
-      <img src="./images/14.png">
+<div
+  class="story">
+  <div
+    class="container">
+    <div
+      class="imageWrapper">
+      <img
+        src="./images/14.png">
     </div>
-    <div class="contentWrapepr">
+    <div
+      class="contentWrapepr">
       <h2>Our Story</h2>
       <p>“The idea for Milky Plant comes after years of searching for clean and affordable plant-based milk. After being diagnosed with high cholesterol, I wanted to find a way to make healthy plant-based milk at home. No saturated fats, additives or preservatives, just 100% pure ingredients - so you’re in control of what goes into your body.”</p>
       <span>- Micheal & Nadina, Founders</span>
-      <a href="#">read our story</a>
+      <a
+        href="#">read our story</a>
     </div>
   </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Story",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Milky Plant"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "info",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "LEARN MORE"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Story"
+      }
+    ]
+  }
+{% endschema %}
