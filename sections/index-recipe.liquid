@@ -1,56 +1,25 @@
-<div class="recipie" style="background-image: url('./images/17.png');">
-  <h2>Recipes</h2>
+<div class="recipie" style="background-image: url('{{ section.settings.background_image | image_url : width : section.settings.background_image.width }}');">
+  <h2>blogs[section.settings.blog].title</h2>
   <div class="sliderWrapper">
-    <div class="slideContainer">
-      <a href="#">
-        <div class="innerSlideContainer">
-          <img src="./images/7.png">
-          <h5>Homemade Almond Milk & Chocolate Chip Cookie</h5>
-        </div>
-      </a>
-    </div>
-    <div class="slideContainer">
-      <a href="#">
-        <div class="innerSlideContainer">
-          <img src="./images/7.png">
-          <h5>Homemade Almond Milk & Chocolate Chip Cookie</h5>
-        </div>
-      </a>
-    </div>
-    <div class="slideContainer">
-      <a href="#">
-        <div class="innerSlideContainer">
-          <img src="./images/7.png">
-          <h5>Homemade Almond Milk & Chocolate Chip Cookie</h5>
-        </div>
-      </a>
-    </div>
-    <div class="slideContainer">
-      <a href="#">
-        <div class="innerSlideContainer">
-          <img src="./images/7.png">
-          <h5>Homemade Almond Milk & Chocolate Chip Cookie</h5>
-        </div>
-      </a>
-    </div>
-    <div class="slideContainer">
-      <a href="#">
-        <div class="innerSlideContainer">
-          <img src="./images/7.png">
-          <h5>Homemade Almond Milk & Chocolate Chip Cookie</h5>
-        </div>
-      </a>
-    </div>
-    <div class="slideContainer">
-      <a href="#">
-        <div class="innerSlideContainer">
-          <img src="./images/7.png">
-          <h5>Homemade Almond Milk & Chocolate Chip Cookie</h5>
-        </div>
-      </a>
-    </div>
+    {% assign articles = blogs[section.settings.blog].articles %}
+    {% for article in articles %}
+      <div class="slideContainer">
+        <a href="{{ article.url }}">
+          <div class="innerSlideContainer">
+            {% render 'responsive-image', image: article.image %}
+            <h5>
+              {{ article.title }}
+            </h5>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
   </div>
-  <a href="#">read recipes</a>
+  {% if section.settings.button_text != blank and section.settings.show_all %}
+    <a href="{{ section.settings.button_url | default: '#' }}">
+      {{ section.settings.button_text }}
+    </a>
+  {% endif %}
 </div>
 {% schema %}
   {
@@ -73,13 +42,10 @@
         "label": "Button URL"
       },
       {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image"
-      }, {
         "type": "checkbox",
         "id": "show_all",
-        "label": "Show All Recipes"
+        "label": "Show All Recipes",
+        "default": true
       }, {
         "type": "image_picker",
         "id": "background_image",
