@@ -60,7 +60,8 @@ header ul {
     position: relative;
 }
 
-ul.leftMenu a {
+
+.header__menu-item {
     font-family: 'Basic', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -73,13 +74,15 @@ ul.leftMenu a {
     display: block;
 }
 
-ul.leftMenu {
-    gap: 24px;
-    display: flex;
-    align-items: center;
+header.container.header--has-menu {
+    padding: 0 5rem;
 }
 
-ul.rightMenu {
+.list-menu{
+    gap: 24px;
+}
+
+.header__icons{
     gap: 34px;
 }
 
@@ -657,9 +660,13 @@ footer {
     display: flex;
     align-items: center;
     gap: 0;
-    height: 81px;
+    height: 81px;   
+}
+
+.newsletter--inner{
     margin-bottom: 73px;
 }
+
 
 .subscribeWrapper button {
     background: #F24938;
@@ -2163,7 +2170,13 @@ section.you-sec .inner-helo {
     display: inline;
 }
 
+.header__menu-item:hover{
+    color: #fff;
+}
 
+.header__menu-item:hover span{
+    text-decoration: none;
+}
 
 
 @media (max-width:1280px){
@@ -2939,9 +2952,13 @@ footer {
     display: flex;
     align-items: center;
     gap: 0;
-    height: 55px;
+    height: 55px;    
+}
+
+.newsletter--inner{
     margin-bottom: 35px;
 }
+
 .mainFooterWrapper {
     flex-wrap: wrap;
 }   
@@ -3028,7 +3045,7 @@ footer {
 
 /* Saqlain's style start */
 
-ul.rightMenu {
+.header__icons{
     gap: 14px;
 }
 .logoContainer {   
@@ -3055,7 +3072,9 @@ ul.rightMenu {
     line-height: 24px;
 }
 
-
+svg.icon.icon-hamburger path {
+    fill: white;
+}
 
 }
 
@@ -3135,19 +3154,24 @@ ul.rightMenu {
     .resc-width h3 br {
         display: none;
     }
-    ul.leftMenu {
+
+    .list-menu{
         gap: 10px;
     }
-    ul.leftMenu a {
+
+    .header__menu-item {
         font-size: 20px;
         line-height: 35px;
     }
+
     ul.rightMenu {
         justify-content: flex-end;
     }
-    ul.rightMenu li {
+    
+    .header__icons .menu-icon{
         max-width: 30%;
     }
+
     .products {
         max-width: 100%;
     }
@@ -3217,11 +3241,14 @@ ul.rightMenu {
     .impact .container>img {
         top: -120px;
     }
-    ul.leftMenu a {
+
+    .header__menu-item {
         font-size: 14px;
         line-height: 30px;
     }
-    ul.rightMenu li {
+
+    
+    .header__icons .menu-icon{
         max-width: 20%;
     }
     .logoContainer {

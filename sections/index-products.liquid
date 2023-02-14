@@ -58,3 +58,25 @@
     </div>
   </div>
 </div>
+{% schema %}
+  {
+    "name": "Products",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "product_list",
+        "id": "products_list",
+        "label": "Products List"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Products"
+      }
+    ]
+  }
+{% endschema %}
