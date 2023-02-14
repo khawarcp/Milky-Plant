@@ -1,8 +1,8 @@
-<div class="banenrWrapper1" loading="lazy" style="background-image: url('./images/rec-banner.png');">
+<div class="banenrWrapper1" loading="lazy" style="background-image: url('{{ blog.metafields.custom.background_image | image_url: width: blog.metafields.custom.background_image.width }}');">
 <div class="container">
     <div class="inner-recp">
-        <h2>Amet minim mollit non  </h2>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+        <h2> {{ blog.metafields.custom.heading }} </h2>
+        <p> {{ blog.metafields.custom.text }} </p>
     </div>
     <div class="recp-flex">
         <div class="recp-width">

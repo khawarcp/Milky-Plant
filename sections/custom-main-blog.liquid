@@ -1,97 +1,41 @@
-<section
-  class="recpe-blogs">
-  <div
-    class="container">
-    <div
-      class="slector">
-      <select>
-        <option>All</option>
-        <option>All</option>
-        <option>All</option>
-      </select>
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+  
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+  
+{%- paginate blog.articles by 3 -%}    
+<section class="main-blog section-{{ section.id }}-padding recpe-blogs">
+    <div class="container">
+        <div class="slector">
+            <select>
+                <option>All</option>
+                <option>All</option>
+                <option>All</option>
+            </select>
+        </div>
+        <div class="resc-flex">            
+        {%- render 'article-card',
+            article: article,
+            show_date: section.settings.show_date,
+            show_author: section.settings.show_author,
+            show_excerpt: true
+        -%}
+        </div>
+        {%- if paginate.pages > 1 -%}
+            {%- render 'pagination', paginate: paginate -%}
+        {%- endif -%}
     </div>
-    <div
-      class="resc-flex">
-      <div
-        class="resc-width">
-        <img
-          src="images/bl1.png">
-        <h3>Plant<br> Milk</h3>
-        <p>We have perfected the plant-based barista milk</p>
-        <div
-          class="primary-btn">
-          <a
-            href="#">read recipe</a>
-        </div>
-      </div>
-      <div
-        class="resc-width">
-        <img
-          src="images/bl1.png">
-        <h3>Oat Banana<br>
-          Milk</h3>
-        <p>This Recipe is loved by everyone . Both adults and kids.</p>
-        <div
-          class="primary-btn">
-          <a
-            href="#">read recipe</a>
-        </div>
-      </div>
-      <div
-        class="resc-width">
-        <img
-          src="images/bl1.png">
-        <h3>Almond<br>
-          Matcha Milk</h3>
-        <p>No cows involved.
-          This recipe is every matcha lover's heaven :)</p>
-        <div
-          class="primary-btn">
-          <a
-            href="#">read recipe</a>
-        </div>
-      </div>
-      <div
-        class="resc-width">
-        <img
-          src="images/bl1.png">
-        <h3>Blueberry Quinoa Milk</h3>
-        <p>Enjoy this healthy clean plant<br> milk with endless benefits.</p>
-        <div
-          class="primary-btn">
-          <a
-            href="#">read recipe</a>
-        </div>
-      </div>
-      <div
-        class="resc-width">
-        <img
-          src="images/bl1.png">
-        <h3>Soya Milk</h3>
-        <p>Soya milk - the protein champ.
-        </p>
-        <div
-          class="primary-btn">
-          <a
-            href="#">read recipe</a>
-        </div>
-      </div>
-      <div
-        class="resc-width">
-        <img
-          src="images/bl1.png">
-        <h3>Maple Pecan Milk</h3>
-        <p>Maple Pecan - tastes like pecan pie.</p>
-        <div
-          class="primary-btn">
-          <a
-            href="#">read recipe</a>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
-
+{%- endpaginate -%}
 {% schema %}
   {
     "name": "t:sections.main-blog.name",
@@ -128,7 +72,7 @@
         "step": 4,
         "unit": "px",
         "label": "t:sections.all.padding.padding_top",
-        "default": 36
+        "default": 0
       }, {
         "type": "range",
         "id": "padding_bottom",
@@ -137,7 +81,7 @@
         "step": 4,
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
-        "default": 36
+        "default": 0
       }
     ]
   }
