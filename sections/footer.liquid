@@ -142,7 +142,7 @@
           <h3>{{ section.settings.menu_heading_1 }}</h3>
           <ul>
             <li>
-              {% for link in linklist[section.settings.menu_1].links %}
+              {% for link in linklists[section.settings.menu_1].links %}
                 <a
                   href="{{ link.url }}">{{ link.title }}</a>
               {% endfor %}
@@ -154,7 +154,7 @@
           <h3>{{ section.settings.menu_heading_2 }}</h3>
           <ul>
             <li>
-              {% for link in linklist[section.settings.menu_2].links %}
+              {% for link in linklists[section.settings.menu_2].links %}
                 <a
                   href="{{ link.url }}">{{ link.title }}</a>
               {% endfor %}
@@ -378,6 +378,58 @@
   </div>
 
 </footer>
+
+{% javascript %}
+  class LocalizationForm extends HTMLElement {
+    constructor() {
+      super();
+      this.elements = {
+        input: this.querySelector('input[name="locale_code"], input[name="country_code"]'),
+        button: this.querySelector('button'),
+        panel: this.querySelector('.disclosure__list-wrapper'),
+      };
+      this.elements.button.addEventListener('click', this.openSelector.bind(this));
+      this.elements.button.addEventListener('focusout', this.closeSelector.bind(this));
+      this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
+
+      this.querySelectorAll('a').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
+    }
+
+    hidePanel() {
+      this.elements.button.setAttribute('aria-expanded', 'false');
+      this.elements.panel.setAttribute('hidden', true);
+    }
+
+    onContainerKeyUp(event) {
+      if (event.code.toUpperCase() !== 'ESCAPE') return;
+
+      this.hidePanel();
+      this.elements.button.focus();
+    }
+
+    onItemClick(event) {
+      event.preventDefault();
+      const form = this.querySelector('form');
+      this.elements.input.value = event.currentTarget.dataset.value;
+      if (form) form.submit();
+    }
+
+    openSelector() {
+      this.elements.button.focus();
+      this.elements.panel.toggleAttribute('hidden');
+      this.elements.button.setAttribute('aria-expanded', (this.elements.button.getAttribute('aria-expanded') === 'false').toString());
+    }
+
+    closeSelector(event) {
+      const shouldClose = event.relatedTarget && event.relatedTarget.nodeName === 'BUTTON';
+      if (event.relatedTarget === null || shouldClose) {
+        this.hidePanel();
+      }
+    }
+  }
+
+  customElements.define('localization-form', LocalizationForm);
+{% endjavascript %}
 
 {% schema %}
   {
