@@ -641,11 +641,6 @@ footer {
     padding: 107px 20px 63px;
 }
 
-.copyright-footer a {
-    font-size: 14px;
-    display: inline;
-}
-
 .logoWrapepr {
     width: 405px;
     height: 96px;
@@ -826,6 +821,11 @@ footer {
 
 .columnRIghtFooter ul {
     display: block;
+}
+
+.columnRIghtFooter a {
+    display: block;
+    margin-bottom: 8px;
 }
 
 .columnRIghtFooter a {
@@ -2158,11 +2158,11 @@ section.you-sec .inner-helo {
     line-height: 54px;
     text-align: center;
 }
-
-.columnRIghtFooter a {
-    display: block;
-    margin-bottom: 8px;
+.copyright-footer a {
+    font-size: 14px;
+    display: inline;
 }
+
 
 
 
