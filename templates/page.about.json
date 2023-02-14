@@ -25,13 +25,15 @@
         "3bd531f9-f051-4ccc-b43f-855c6444a78f": {
           "type": "block",
           "settings": {
-            "heading": ""
+            "heading": "Gluten Free",
+            "image": "shopify:\/\/shop_images\/Unknown2_2.png"
           }
         },
         "4d9a4b97-8413-4213-b95f-77981b9b270d": {
           "type": "block",
           "settings": {
-            "heading": ""
+            "heading": "End of Life<br> Program",
+            "image": "shopify:\/\/shop_images\/about-end-of-live_1.png"
           }
         }
       },
