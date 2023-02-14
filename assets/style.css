@@ -829,11 +829,6 @@ footer {
 }
 
 .columnRIghtFooter a {
-    display: block;
-    margin-bottom: 8px;
-}
-
-.columnRIghtFooter a {
     font-family: 'Basic', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2164,7 +2159,10 @@ section.you-sec .inner-helo {
     text-align: center;
 }
 
-
+.columnRIghtFooter a {
+    display: block;
+    margin-bottom: 8px;
+}
 
 
 
