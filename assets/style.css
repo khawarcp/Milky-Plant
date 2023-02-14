@@ -1827,7 +1827,7 @@ section.you-sec .inner-helo {
 /* ameer stylings */
 .h-banner{
     padding: 214px 0 168px;
-    background: url('images/bg-gradient.png') no-repeat;
+    background: url('bg-gradient.png') no-repeat;
     background-size: cover;
     border:1px solid #000;
     position: relative;
@@ -2007,7 +2007,7 @@ section.you-sec .inner-helo {
     margin:0 0 38px;
     border-radius: 30px;
     border: 2px solid #1C5597;
-    background: url('images/select-tip.png') no-repeat 98% 50%;
+    background: url('select-tip.png') no-repeat 98% 50%;
     color: #1C5597;
     text-align: center;
     appearance: none;
@@ -2053,7 +2053,7 @@ section.you-sec .inner-helo {
     content: '';
     left:0;
     bottom:-97px;
-    background: url('images/wave.png') no-repeat;
+    background: url('wave.png') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -2086,7 +2086,7 @@ section.you-sec .inner-helo {
     right:0;
     top:50%;
     margin-top:-15px;
-    background:url('images/increment.png') no-repeat;
+    background:url('increment.png') no-repeat;
 }
 .material-area .holder.active .opener:after {
     transform: rotate(45deg);
