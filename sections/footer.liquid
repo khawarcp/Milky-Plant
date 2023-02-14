@@ -177,7 +177,7 @@
               {%- endfor -%}
             </li>
           </ul>
-          <p>&copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}. Registered in the United Kingdom 13340022</p>
+          <p class="copyright-footer">&copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to : shop.url }}. {{ section.settings.copyright }}</p>
           <div
             class="footer__content-bottom">
             <div
@@ -533,7 +533,8 @@
       }, {
         "type": "text",
         "id": "copyright",
-        "label": "Copyright Text"
+        "label": "Copyright Text",
+        "default": "Registered in the United Kingdom 13340022"
       }
     ]
   }
