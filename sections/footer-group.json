@@ -4,47 +4,22 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
-      ],
       "settings": {
-        "color_scheme": "background-1",
+        "footer_logo": "shopify:\/\/shop_images\/Logo.png",
+        "heading": "Follow us",
+        "social_image": "shopify:\/\/shop_images\/4_1.png",
+        "menu_heading_1": "About",
+        "menu_1": "footer",
+        "menu_heading_2": "Shop",
+        "menu_2": "shop-menu",
+        "contact_heading": "CONTACT US",
+        "contact_image": "shopify:\/\/shop_images\/24.png",
+        "contact_url": "shopify:\/\/pages\/contact",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": false,
-        "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "copyright": ""
       }
     }
   },
