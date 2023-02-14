@@ -6,7 +6,7 @@
           
         </div>
         <div class="partner-flex">
-            {% for block in section.block %}                                  
+            {% for block in section.blocks %}                                  
                 <div class="partner-width">
                     {% render 'responsive-image', image: block.settings.image %}
                     <span> {{ block.settings.heading }} </span>
