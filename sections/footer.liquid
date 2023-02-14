@@ -62,7 +62,8 @@
       </div>
       {% if section.settings.newsletter_enable %}
         {%- form 'customer', id: 'ContactFooter' -%}
-          <input
+          <div class="newsletter--inner">
+            <input
             type="hidden"
             name="contact[tags]"
             value="newsletter">
@@ -99,7 +100,8 @@
             {%- endif -%}
           {%- if form.posted_successfully? -%}
             <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
-          {%- endif -%}        
+          {%- endif -%}  
+          </div>                
         {%- endform -%}
       {% endif %}
     </div>
