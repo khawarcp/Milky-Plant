@@ -103,9 +103,9 @@
                   <a href="#">CONTACT  US <img src="./images/24.png"></a>
                   <ul>
                       <li>
-                          <a href="#">Terms of Services</a>
-                          <a href="#">Privacy Policy</a>
-                          <a href="#">Refund Policy</a>
+                        {%- for policy in shop.policies -%}
+                          <a href="{{ policy.url }}"> {{ policy.title }} </a>
+                        {%- endfor -%} 
                       </li>
                   </ul>
                   <p>&copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}. Registered in the United Kingdom 13340022</p>                     
@@ -240,7 +240,8 @@
       {
           "type": "text",
           "id": "heading",
-          "label": "Heading"
+          "label": "Heading",
+          "default": "Follow us"
       },
       {
         "type" :"image_picker",
@@ -254,7 +255,8 @@
       {
           "type": "text",
           "id": "menu_heading_1",
-          "label": "Menu Heading 1"
+          "label": "Menu Heading 1",
+          "default": "About"
       },
       {
           "type": "link_list",
@@ -264,7 +266,8 @@
       {
           "type": "text",
           "id": "menu_heading_2",
-          "label": "Menu Heading 2"
+          "label": "Menu Heading 2",
+          "default": "Shop"
       },
       {
           "type": "link_list",
@@ -278,7 +281,8 @@
       {
           "type": "text",
           "id": "contact_heading",
-          "label": "Heading"
+          "label": "Heading",
+          "default": "CONTACT US"
       },
       {
           "type": "image_picker",
@@ -289,11 +293,6 @@
           "type": "url",
           "id": "contact_url",
           "label": "URL"
-      },
-      {
-          "type": "link_list",
-          "id": "policy_menu",
-          "label": "Policies Menu"
       },
       {
         "type": "header",
@@ -342,6 +341,11 @@
         "id": "payment_enable",
         "default": true,
         "label": "t:sections.footer.settings.payment_enable.label"
+      },
+      {
+        "type": "text",
+        "id": "copyright",
+        "label": "Copyright Text"
       }
     ]
   }
