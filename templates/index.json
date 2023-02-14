@@ -11,6 +11,15 @@
         "background_image": "shopify:\/\/shop_images\/5.png"
       }
     },
+    "edac6e5b-d71b-445b-9f00-ae2c74497438": {
+      "type": "index-products",
+      "settings": {
+        "heading": "",
+        "products_list": [
+
+        ]
+      }
+    },
     "55d246fe-1e43-42ac-a72c-9713ce5e3735": {
       "type": "index-recipe",
       "settings": {
@@ -119,6 +128,7 @@
   },
   "order": [
     "6c616b1e-2cf8-4b55-8118-cccdec42aede",
+    "edac6e5b-d71b-445b-9f00-ae2c74497438",
     "55d246fe-1e43-42ac-a72c-9713ce5e3735",
     "73abf198-93f2-408a-a11e-749be057cf81",
     "80c6f5a9-d887-448a-adf2-5f9382599856",
