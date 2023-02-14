@@ -641,6 +641,11 @@ footer {
     padding: 107px 20px 63px;
 }
 
+.copyright-footer a {
+    font-size: 14px;
+    display: inline;
+}
+
 .logoWrapepr {
     width: 405px;
     height: 96px;
