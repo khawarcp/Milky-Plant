@@ -29,3 +29,39 @@
        
     </div>
 </section>
+
+{% schema %}
+    {
+        "name": "Give Back",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "text",
+                "label": "Text"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Block",
+                "type": "block",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Images"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}
