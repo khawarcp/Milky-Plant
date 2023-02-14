@@ -12,24 +12,25 @@
     }
   {%- endstyle -%}
   
-{%- paginate blog.articles by 3 -%}    
+{%- paginate blog.articles by 6 -%}    
 <section class="main-blog section-{{ section.id }}-padding recpe-blogs">
     <div class="container">
         <div class="slector">
-            <select>
-                <option>All</option>
-                <option>All</option>
-                <option>All</option>
+            <select name="filter-tags" onchange="location = this.value;">
+                <option value="{{ blog.url }}">All</option>
+                {% for tag in blog.all_tags %}
+                  <option value="{{ blog.url }}/tagged/{{ tag | handleize }}" {% if current_tags contains tag %}selected{% endif %}>{{ tag | link_to_tag: tag }}</option>
+              {% endfor %}
             </select>
         </div>
         <div class="resc-flex">
-            {%- for article in blog.articles -%}            
-        {%- render 'custom-article-card',
-            article: article,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-        -%}
+            {%- for article in blog.articles -%}                
+                {%- render 'custom-article-card',
+                    article: article,
+                    show_date: section.settings.show_date,
+                    show_author: section.settings.show_author,
+                    show_excerpt: true
+                -%}                       
         {%- endfor -%}
         </div>
         {%- if paginate.pages > 1 -%}

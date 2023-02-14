@@ -2178,6 +2178,10 @@ section.you-sec .inner-helo {
     text-decoration: none;
 }
 
+.pagination__list {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 @media (max-width:1280px){
     .usThemContentItem img {
