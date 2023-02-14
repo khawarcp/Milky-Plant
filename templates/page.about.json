@@ -1,0 +1,14 @@
+{
+    "sections": {
+        "about-description":{
+            "type": "about-description"
+        },
+        "about-give-back":{
+            "type": "about-give-back"
+        }
+    },
+    "order": [
+        "about-description",
+        "about-give-back"
+    ]
+}
