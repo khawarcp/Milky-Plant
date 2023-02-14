@@ -1,14 +1,52 @@
 {
-    "sections": {
-        "about-description":{
-            "type": "about-description"
-        },
-        "about-give-back":{
-            "type": "about-give-back"
-        }
+  "sections": {
+    "about-description": {
+      "type": "about-description",
+      "settings": {
+      }
     },
-    "order": [
-        "about-description",
-        "about-give-back"
-    ]
+    "about-give-back": {
+      "type": "about-give-back",
+      "blocks": {
+        "6edf063a-148c-4192-a9c8-1969edfb211d": {
+          "type": "block",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "903fa25d-3558-49d3-8a54-94d4263a6a05": {
+          "type": "block",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "3bd531f9-f051-4ccc-b43f-855c6444a78f": {
+          "type": "block",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "4d9a4b97-8413-4213-b95f-77981b9b270d": {
+          "type": "block",
+          "settings": {
+            "heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "6edf063a-148c-4192-a9c8-1969edfb211d",
+        "903fa25d-3558-49d3-8a54-94d4263a6a05",
+        "3bd531f9-f051-4ccc-b43f-855c6444a78f",
+        "4d9a4b97-8413-4213-b95f-77981b9b270d"
+      ],
+      "settings": {
+        "heading": "You Shop. We Give Back.",
+        "text": "Milky Plant follows ethical and sustainable manufacturing best practices. With every purchase, we plant 5 trees, offset our carbon footprint and donate 1% to help the world's most pressing environmental issues. We designed an End of Life Program to re-purpose and upcycle all Milky Plant machine parts and create as little waste as possible."
+      }
+    }
+  },
+  "order": [
+    "about-description",
+    "about-give-back"
+  ]
 }
