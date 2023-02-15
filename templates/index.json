@@ -14,9 +14,11 @@
     "edac6e5b-d71b-445b-9f00-ae2c74497438": {
       "type": "index-products",
       "settings": {
-        "heading": "",
+        "heading": "Products",
         "products_list": [
-
+          "milky-plant",
+          "milky-plant-1",
+          "milky-plant-2"
         ]
       }
     },
