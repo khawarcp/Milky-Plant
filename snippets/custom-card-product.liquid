@@ -74,7 +74,7 @@
             <form action="/cart/add" method="post"  id="{{ product_form_id }}">
                 <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" />
                 <input type="hidden" name="return_to" value="/checkout/" />
-                <button class="button btn-cart btn_theme" title="Buy" ><span>Buy Now</span></button>
+                <button class="button btn-cart btn_theme" title="Buy Now"><span>Buy Now</span></button>
             </form>
             {%- if show_quick_add -%}
             <div class="quick-add no-js-hidden">

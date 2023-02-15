@@ -3,8 +3,6 @@
     "blog-banner": {
       "type": "blog-banner",
       "settings": {
-        "heading": "",
-        "text": ""
       }
     },
     "custom-main-blog": {

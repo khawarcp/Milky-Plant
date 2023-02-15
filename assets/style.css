@@ -2165,6 +2165,8 @@ section.you-sec .inner-helo {
     line-height: 54px;
     text-align: center;
 }
+
+/***************************/
 .copyright-footer a {
     font-size: 14px;
     display: inline;
@@ -2181,6 +2183,21 @@ section.you-sec .inner-helo {
 .pagination__list {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.thumbnail-slider .thumbnail-list.slider--tablet-up {
+    justify-content: center;
+    gap: 33px;
+}
+
+.thumbnail.global-media-settings {
+    border-radius: 50%;    
+}
+
+.thumbnail.global-media-settings img {
+    height: 100%;
+    object-fit: contain;
+    background: white;
 }
 
 @media (max-width:1280px){
