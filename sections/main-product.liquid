@@ -572,7 +572,7 @@
   </script>
 </section>
 {% if section.settings.flag_image != blank %}
-  <img loading="lazy" width="{{ section.settings.flag_image.width }}" height="" src="{{ section.settings.flag_image | image_url: section.settings.flag_image.width }}" class="flag-icon">  
+  <img loading="lazy" width="{{ section.settings.flag_image.width }}" height="" src="{{ section.settings.flag_image | image_url: width: section.settings.flag_image.width }}" class="flag-icon">  
 {% endif %}
 </div>
 
