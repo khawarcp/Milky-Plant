@@ -2191,7 +2191,8 @@ section.you-sec .inner-helo {
 }
 
 .thumbnail.global-media-settings {
-    border-radius: 50%;    
+    box-shadow: 0 0 0 3px white;
+    border-radius: 50%; 
 }
 
 .thumbnail.global-media-settings img {
@@ -2199,6 +2200,20 @@ section.you-sec .inner-helo {
     object-fit: contain;
     background: white;
 }
+
+.thumbnail.global-media-settings.thumbnail[aria-current] {
+    box-shadow: 0 0 0 3px #1C5597;
+}
+
+.product__media-item.grid__item.slider__slide.is-active {
+    background: white;
+    border-radius: 60px;
+}
+
+.product:not(.product--columns) .product__media-list .product__media-item:first-child {
+    padding: 15px;
+}
+
 
 @media (max-width:1280px){
     .usThemContentItem img {
