@@ -2268,11 +2268,26 @@ section.you-sec .inner-helo {
 .shopify-payment-button__button{
     text-align: center;
     text-transform: uppercase;
-    font-size: 21px;
+    font-size: 21px !important;
 }
 
 .product-form__quantity .form__label { 
     display: none;
+}
+.btn-price-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-item {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+.product .price .badge, .product .price__container{
+ margin-bottom: 0;   
 }
 
 @media screen and (min-width: 990px){
