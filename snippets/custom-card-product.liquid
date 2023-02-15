@@ -66,11 +66,73 @@
           </div>
         <p> {{ card_product.metafields.descriptors.subtitle }} </p>
         <div class="buttonBuyNow">
-        <button>
-            buy now
-            <span class="plusSignBuyNow">
-            <span>+</span>
-            </span>
-        </button>
+
+        <div class="button-wrap">
+            {%- liquid
+                assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id             
+              -%}   
+            <form action="/cart/add" method="post"  id="{{ product_form_id }}">
+                <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" />
+                <input type="hidden" name="return_to" value="/checkout/" />
+                <button class="button btn-cart btn_theme" title="Buy" ><span>Buy Now</span></button>
+            </form>
+            {%- if show_quick_add -%}
+            <div class="quick-add no-js-hidden">
+                       
+              <product-form>
+                  {%- form 'product',
+                    card_product,
+                    id: product_form_id,
+                    class: 'form',
+                    novalidate: 'novalidate',
+                    data-type: 'add-to-cart-form'
+                  -%}
+                    <input
+                      type="hidden"
+                      name="id"
+                      value="{{ card_product.selected_or_first_available_variant.id }}"
+                      disabled
+                    >
+                    <button
+                      id="{{ product_form_id }}-submit"
+                      type="submit"
+                      name="add"
+                      class="quick-add__submit button button--full-width button--secondary{% if horizontal_quick_add %} card--horizontal__quick-add{% endif %}"
+                      aria-haspopup="dialog"
+                      aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
+                      aria-live="polite"
+                      data-sold-out-message="true"
+                      {% if card_product.selected_or_first_available_variant.available == false %}
+                        disabled
+                      {% endif %}
+                    >
+                      <span>
+                        {%- if card_product.selected_or_first_available_variant.available -%}                      
+                          <span>+</span>                        
+                        {%- endif -%}
+                      </span>
+                      <span class="sold-out-message hidden">
+                        {{ 'products.product.sold_out' | t }}
+                      </span>
+                      {%- if horizontal_quick_add -%}
+                        <span class="icon-wrap">{% render 'icon-plus' %}</span>
+                      {%- endif -%}
+                      <div class="loading-overlay__spinner hidden">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          class="spinner"
+                          viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </button>
+                  {%- endform -%}
+                </product-form>        
+            </div>
+          {%- endif -%}     
+        </div>   
         </div>
     </div>
