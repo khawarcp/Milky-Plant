@@ -56,7 +56,7 @@
             id = "ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+            class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %} add-button"
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
               disabled
             {% endif %}
@@ -65,7 +65,7 @@
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {{ 'products.product.add_to_cart' | t }} {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               {%- endif -%}
             </span>
             <div class="loading-overlay__spinner hidden">
