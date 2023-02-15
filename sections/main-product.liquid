@@ -571,6 +571,9 @@
     }
   </script>
 </section>
+{% if section.settings.flag_image != blank %}
+  <img loading="lazy" width="{{ section.settings.flag_image.width }}" height="" src="{{ section.settings.flag_image | image_url: section.settings.flag_image.width }}" class="flag-icon">  
+{% endif %}
 </div>
 
 {% schema %}
@@ -2040,6 +2043,11 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "flag_image",
+      "label": "Flag Image"
     },
     {
       "type": "header",

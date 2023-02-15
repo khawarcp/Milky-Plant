@@ -2286,6 +2286,11 @@ section.you-sec .inner-helo {
     margin-bottom: 0;
 }
 
+.cart-count-bubble {
+    bottom: 0.5rem;
+    left: 3rem;
+}
+
 .product .price .badge, .product .price__container{
  margin-bottom: 0;   
 }

@@ -69,10 +69,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "fortify-product-accordion": {
+      "type": "fortify-product-accordion"
+    },
+    "fortify-product-features": {
+      "type": "fortify-product-features"
     }
   },
   "order": [
     "main",
+    "fortify-product-accordion",
+    "fortify-product-features",
     "related-products"
   ]
 }
