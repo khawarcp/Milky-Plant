@@ -49,12 +49,24 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "flag_image": "shopify:\/\/shop_images\/circle-flag.png",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
+    "fortify-product-accordion": {
+      "type": "fortify-product-accordion",
+      "settings": {
+      }
+    },
+    "fortify-product-features": {
+      "type": "fortify-product-features",
+      "settings": {
+      }
+    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -69,12 +81,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "fortify-product-accordion": {
-      "type": "fortify-product-accordion"
-    },
-    "fortify-product-features": {
-      "type": "fortify-product-features"
     }
   },
   "order": [
