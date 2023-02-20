@@ -132,6 +132,19 @@
         "image": "shopify:\/\/shop_images\/36.png"
       }
     },
+    "pro-wireframe-similar": {
+      "type": "pro-wireframe-similar",
+      "settings": {
+        "similar_list": [
+          "milky-plant",
+          "2-milky-plants",
+          "3-milky-plants"
+        ],
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true
+      }
+    },
     "pro-wireframe-comparision": {
       "type": "pro-wireframe-comparision",
       "blocks": {
@@ -201,18 +214,15 @@
         "heading": "Us vs Them",
         "image": "shopify:\/\/shop_images\/bottom-img.png"
       }
-    },
-    "pro-wireframe-similar":{
-      "type": "pro-wireframe-similar"
     }
   },
-  "order": [    
+  "order": [
     "pro-wireframe-main",
     "pro-wireframe-usage",
     "pro-wireframe-cleaning",
-    "pro-wireframe-shipping",    
+    "pro-wireframe-shipping",
+    "pro-wireframe-similar",
     "pro-wireframe-comparision",
-    "pro-wireframe-usethem",
-    "pro-wireframe-similar"
+    "pro-wireframe-usethem"
   ]
 }
