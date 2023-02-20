@@ -1,48 +1,37 @@
 <div class="material-area">
-    <div class="ingredients">
-        <div class="holder">
-            <a href="#" class="opener">Ingredients:</a>
-            <ul class="images">
-                {% for ingredient in product.metafields.custom.ingredients.value %}                    
-                    <li>
-                        {% render 'responsive-image', image: ingredient.ingredient_image.value %}
-                        <strong> {{ ingredient.ingredient_name.value }} </strong>
-                    </li>                    
-                {% endfor %}              
-            </ul>
-        </div>
-        <div class="holder">
-            <a href="#" class="opener">How to use:</a>
-            <ul class="images">
-                
-                {% for usage in product.metafields.custom.fortify_usage.value %}                                                                
-                        <li>                        
-                            <strong> {{ usage }} </strong>
-                        </li>                                        
-                {% endfor %}              
-            </ul>
-        </div>
+  <div class="ingredients">
+    <div class="holder">
+      <a href="#" class="opener">Ingredients:</a>
+      <ul class="images">
+        {% for ingredient in product.metafields.custom.ingredients.value %}
+          <li>
+            {% render 'responsive-image', image: ingredient.ingredient_image.value %}
+            <strong>
+              {{ ingredient.ingredient_name.value }}
+            </strong>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
+    <div class="holder">
+      <a href="#" class="opener">How to use:</a>
+      <ul class="images">
+
+        {% for usage in product.metafields.custom.fortify_usage.value %}
+          <li>
+            <strong>
+              {{ usage }}
+            </strong>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
 
 {% schema %}
-    {
-        "name": "Product Ingredients",
-        "settings": [
-          
-        ],
-        "blocks":[
-          {
-              "name" : "Use",
-              "type" : "use",
-              "settings":[
-                {
-                    "type" : "text",
-                    "id" : "Text",
-                    "label" : "Text"
-                }
-              ]
-          }
-        ]
-    }
+  {
+    "name": "Product Ingredients",
+    "settings": []
+  }
 {% endschema %}

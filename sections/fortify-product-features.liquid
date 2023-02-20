@@ -1,27 +1,19 @@
 <div class="fourcols">
-    <div class="holder">
+  <div class="holder">
+    {% for feature in product.metafields.custom.ingredients.value %}
+      {% if feature.feature.value != blank %}
         <div class="col">
-            <div class="img-holder"><img src="images/ico1.png"></div>
-            <strong>Certified Organic</strong>
+          <div class="img-holder">{% render 'responsive-image', image: feature.feature_image.value %}</div>
+          <strong>{{ feature.feature.value }}</strong>
         </div>
-        <div class="col">
-            <div class="img-holder"><img src="images/ico2.png"></div>
-            <strong>Vegan</strong>
-        </div>
-        <div class="col">
-            <div class="img-holder"><img src="images/ico3.png"></div>
-            <strong>Gluten Free</strong>
-        </div>
-        <div class="col">
-            <div class="img-holder"><img src="images/ico4.png"></div>
-            <strong>No artificial Sweeteners</strong>
-        </div>
-    </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
-    {
-        "name": "Product Features",
-        "settings": []
-    }
+  {
+    "name": "Product Features",
+    "settings": []
+  }
 {% endschema %}
