@@ -67,6 +67,11 @@
     "pro-wireframe-cleaning": {
       "type": "pro-wireframe-cleaning",
       "settings": {
+        "heading": "Self-Cleaning",
+        "info": "No need to spend any time cleaning the machine, just add water and push the button it will start the cleaning function.",
+        "button_text": "buy now",
+        "button_url": "",
+        "image": "shopify:\/\/shop_images\/35_f7822982-f792-48e0-989c-debbe9e3c202.png"
       }
     },
     "pro-wireframe-shipping": {
