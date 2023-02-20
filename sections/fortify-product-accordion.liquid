@@ -15,7 +15,7 @@
             <a href="#" class="opener">How to use:</a>
             <ul class="images">
                 
-                {% for usage in section.settings.Text %}                                                                
+                {% for usage in product.metafields.custom.fortify_usage.value %}                                                                
                         <li>                        
                             <strong> {{ usage }} </strong>
                         </li>                                        
@@ -29,11 +29,7 @@
     {
         "name": "Product Ingredients",
         "settings": [
-          {
-                    "type" : "text",
-                    "id" : "Text",
-                    "label" : "Text"
-                }
+          
         ],
         "blocks":[
           {
