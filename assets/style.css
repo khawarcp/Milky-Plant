@@ -2322,10 +2322,6 @@ section.you-sec .inner-helo {
     right: 30px;
 }
 
-.wirefram-template .product__media.media.media--transparent {
-    background: #f4ccdc;
-}
-
 @media screen and (min-width: 990px){
     .product--medium:not(.product--no-media) .product__media-wrapper, .product--small:not(.product--no-media) .product__info-wrapper {
         max-width: 50% !important;
