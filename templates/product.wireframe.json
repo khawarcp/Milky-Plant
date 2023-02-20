@@ -61,7 +61,38 @@
     },
     "pro-wireframe-usage": {
       "type": "pro-wireframe-usage",
+      "blocks": {
+        "aaba4c85-bc83-41b5-977e-933a174efc5a": {
+          "type": "block",
+          "settings": {
+            "text": "Add Ingredients",
+            "subtext": "Add ingredients to the container up until the MIN line"
+          }
+        },
+        "8727a3dd-beb4-45b5-8eb5-51793d5b4267": {
+          "type": "block",
+          "settings": {
+            "text": "Add Water",
+            "subtext": "Fill up the Milky Plant water tank witth clean water",
+            "image": "shopify:\/\/shop_images\/32.png"
+          }
+        },
+        "0037fe51-ec44-47f4-876b-5790f1ef1c96": {
+          "type": "block",
+          "settings": {
+            "text": "Press & Enjoy",
+            "subtext": "Just press the button, let Milky Plant work its magic, and enjoy!",
+            "image": "shopify:\/\/shop_images\/33.png"
+          }
+        }
+      },
+      "block_order": [
+        "aaba4c85-bc83-41b5-977e-933a174efc5a",
+        "8727a3dd-beb4-45b5-8eb5-51793d5b4267",
+        "0037fe51-ec44-47f4-876b-5790f1ef1c96"
+      ],
       "settings": {
+        "heading": "How to Use Milky Plant"
       }
     },
     "pro-wireframe-cleaning": {
