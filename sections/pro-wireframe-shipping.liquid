@@ -1,4 +1,24 @@
 <div class="jhanda">
-  <img src="./images/36.png">
-  <p>free Shipping to UK / USA / EU with taxes included</p>
+  {% render 'responsive-image', image: section.settings.image %}
+  <p>
+    {{ section.settings.shipping_text }}
+  </p>
 </div>
+
+{% schema %}
+  {
+    "name": "Shipping",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "shipping_text",
+        "label": "Shipping Text",
+        "default": "free Shipping to UK / USA / EU with taxes included"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ]
+  }
+{% endschema %}
