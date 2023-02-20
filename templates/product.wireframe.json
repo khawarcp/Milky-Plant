@@ -56,7 +56,57 @@
     },
     "pro-wireframe-main": {
       "type": "pro-wireframe-main",
+      "blocks": {
+        "8b2241bc-b332-4f47-9073-ef425afbc337": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1e9fa716-fe1c-4060-af2c-075727eb15ab": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "body"
+          }
+        },
+        "77bd2dfd-8614-4944-bf47-c9c8112cca02": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "3172565e-672e-4f5d-bb1c-da76da61c557": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "a8969a01-b525-4612-bbf1-d7408e76d277": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "8b2241bc-b332-4f47-9073-ef425afbc337",
+        "1e9fa716-fe1c-4060-af2c-075727eb15ab",
+        "77bd2dfd-8614-4944-bf47-c9c8112cca02",
+        "3172565e-672e-4f5d-bb1c-da76da61c557",
+        "a8969a01-b525-4612-bbf1-d7408e76d277"
+      ],
       "settings": {
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "pro-wireframe-usage": {
