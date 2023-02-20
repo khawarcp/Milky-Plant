@@ -1,0 +1,68 @@
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+<link
+  rel="preload"
+  href="{{ 'component-rte.css' | asset_url }}"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'">
+
+{%- if section.settings.enable_quick_add -%}
+  <link
+    rel="stylesheet"
+    href="{{ 'quick-add.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'">
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="productsSection detailproductsSection">
+  <div class="container">
+    <div class="containerProducts">
+      <div class="wrapperProducts">
+        {%- for product in section.settings.similar_list -%}
+          <div class="products">
+            {% render 'custom-card-product' 
+             , card_product: product,
+             show_vendor: section.settings.show_vendor,
+             show_rating: section.settings.show_rating,
+             show_quick_add: section.settings.enable_quick_add,
+             lazy_load: true,
+             section_id: section.id %}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Similar Products",
+    "settings": [
+      {
+        "type": "product_list",
+        "id": "similar_list",
+        "label": "Similar Products"
+      }, {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "default": false,
+        "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+      }, {
+        "type": "checkbox",
+        "id": "show_rating",
+        "default": false,
+        "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
+        "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
+      }, {
+        "type": "checkbox",
+        "id": "enable_quick_add",
+        "default": true,
+        "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
+      }
+    ]
+  }
+{% endschema %}

@@ -41,13 +41,12 @@
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         {% for recommendation in recommendations.products %}
           <li class="grid__item">
-            {% render 'custom-card-product'
+            {% render 'card-product'
              , card_product: recommendation,
+             media_aspect_ratio: section.settings.image_ratio,
+             show_secondary_image: section.settings.show_secondary_image,
              show_vendor: section.settings.show_vendor,
-             show_rating: section.settings.show_rating,
-             show_quick_add: section.settings.enable_quick_add,
-             lazy_load: true,
-             section_id: section.id %}
+             show_rating: section.settings.show_rating %}
           </li>
         {% endfor %}
       </ul>
@@ -169,11 +168,6 @@
         "label": "t:sections.related-products.settings.show_rating.label",
         "info": "t:sections.related-products.settings.show_rating.info"
       }, {
-        "type": "checkbox",
-        "id": "enable_quick_add",
-        "default": true,
-        "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
-      }, {
         "type": "header",
         "content": "t:sections.related-products.settings.header_mobile.content"
       }, {
@@ -201,7 +195,7 @@
         "step": 4,
         "unit": "px",
         "label": "t:sections.all.padding.padding_top",
-        "default": 0
+        "default": 36
       }, {
         "type": "range",
         "id": "padding_bottom",
@@ -210,7 +204,7 @@
         "step": 4,
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
-        "default": 0
+        "default": 36
       }
     ]
   }
