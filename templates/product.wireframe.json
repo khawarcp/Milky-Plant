@@ -1,60 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-product",
-      "disabled": true,
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "description",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
-        "enable_video_looping": false,
-        "flag_image": "shopify:\/\/shop_images\/circle-flag.png",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "pro-wireframe-main": {
       "type": "pro-wireframe-main",
       "blocks": {
@@ -269,8 +214,7 @@
       }
     }
   },
-  "order": [
-    "main",
+  "order": [    
     "pro-wireframe-main",
     "pro-wireframe-usage",
     "pro-wireframe-cleaning",
