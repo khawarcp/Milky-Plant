@@ -72,6 +72,8 @@
     "pro-wireframe-shipping": {
       "type": "pro-wireframe-shipping",
       "settings": {
+        "shipping_text": "free Shipping to UK \/ USA \/ EU with taxes included",
+        "image": "shopify:\/\/shop_images\/36.png"
       }
     },
     "related-products": {
