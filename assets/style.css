@@ -160,6 +160,8 @@ header.container.header--has-menu {
     transition: 0.7s all;
 }
 
+.product__title h1,
+.product__title h2,
 h2 {
     font-family: 'Basic', sans-serif;
     font-style: normal;
@@ -968,6 +970,8 @@ footer {
 .centerColumnProductPage {
     width: calc(20% - 10px);
 }
+
+.leftWrapper h1,
 .leftWrapper h2 {
     margin-bottom: 0px;
 }
@@ -981,17 +985,30 @@ footer {
     margin-bottom: 40px;
 }
 .whiteButton {
-    border-radius: 80px;
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    padding: 12px 25px;
-    font-weight: 700;
-    font-size: 17.3096px;
-    line-height: 21px;
+    border-radius: 80px !important;    
+    border: 1px solid #FFFFFF !important;
+    padding: 12px 25px !important;
+    font-weight: 700 !important;
+    font-size: 17.3096px !important;
+    line-height: 21px !important;
+    color: #1C5597 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.824269px !important;
+    width: 191px !important;
+}
+
+.product-form__input input[type='radio']:checked + label {
+    color: #fff !important;
+}
+
+.wirefram-template .add-button {
+    background: white;
     color: #1C5597;
-    text-transform: uppercase;
-    letter-spacing: 0.824269px;
-    width: 191px;
+    font-weight: bold;
+}
+
+.wirefram-template .price-item {
+    color: #1C5597;
 }
 
 .buttonWrapperLeft {
@@ -1004,14 +1021,8 @@ footer {
     max-width: 230px;
     margin: auto;
 }
-.contentWrapperColumn > p {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 27px;
-    letter-spacing: 1px;
-    color: #1C5597;
-    margin: 20px 0 35px;
-}
+
+.contentWrapperColumn .product__description,
 .contentWrapperColumn > p {
     font-weight: 400;
     font-size: 25px;
@@ -2295,6 +2306,10 @@ section.you-sec .inner-helo {
  margin-bottom: 0;   
 }
 
+.wirefram-template .product__media-item.grid__item.slider__slide.is-active {
+    background: transparent;
+}
+
 @media screen and (min-width: 990px){
     .product--medium:not(.product--no-media) .product__media-wrapper, .product--small:not(.product--no-media) .product__info-wrapper {
         max-width: 50% !important;
@@ -2340,6 +2355,7 @@ section.you-sec .inner-helo {
         padding-top: 60px;
         padding-bottom: 130px;      
     }
+    .contentWrapperColumn .product__description,
     .contentWrapperColumn > p {
         line-height: normal;
     }
@@ -2557,7 +2573,7 @@ section.you-sec .inner-helo {
     }
     .centerColumnProductPage {
         width: calc(30% - 10px);
-    }
+    }    
     .contentWrapperColumn {
         width: 100%;
     }
@@ -3163,6 +3179,8 @@ footer {
 .leftWrapper {
     width: calc(100% - 10px);
 }
+
+.leftWrapper h1,
 .leftWrapper h2 {
     font-size: 50px;
 }
@@ -3333,6 +3351,7 @@ svg.icon.icon-hamburger path {
         line-height: 21px;
         padding: 12px;
     }
+    .contentWrapperColumn .product__description,
     .contentWrapperColumn > p {
         font-size: 18px;
     }
