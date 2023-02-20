@@ -54,13 +54,33 @@
         "padding_bottom": 0
       }
     },
-    "fortify-product-accordion": {
-      "type": "fortify-product-accordion",
+    "pro-wireframe-main": {
+      "type": "pro-wireframe-main",
       "settings": {
       }
     },
-    "fortify-product-features": {
-      "type": "fortify-product-features",
+    "pro-wireframe-usage": {
+      "type": "pro-wireframe-usage",
+      "settings": {
+      }
+    },
+    "pro-wireframe-cleaning": {
+      "type": "pro-wireframe-cleaning",
+      "settings": {
+      }
+    },
+    "pro-wireframe-shipping": {
+      "type": "pro-wireframe-shipping",
+      "settings": {
+      }
+    },
+    "pro-wireframe-comparision": {
+      "type": "pro-wireframe-comparision",
+      "settings": {
+      }
+    },
+    "pro-wireframe-usethem": {
+      "type": "pro-wireframe-usethem",
       "settings": {
       }
     },
@@ -85,8 +105,12 @@
   },
   "order": [
     "main",
-    "fortify-product-accordion",
-    "fortify-product-features",
-    "related-products"
+    "pro-wireframe-main",
+    "pro-wireframe-usage",
+    "pro-wireframe-cleaning",
+    "pro-wireframe-shipping",
+    "related-products",
+    "pro-wireframe-comparision",
+    "pro-wireframe-usethem"
   ]
 }
