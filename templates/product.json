@@ -57,6 +57,7 @@
     "fortify-product-accordion": {
       "type": "fortify-product-accordion",
       "settings": {
+        "Text": "{{ product.metafields.custom.fortify_usage | metafield_text }}"
       }
     },
     "fortify-product-features": {
