@@ -98,7 +98,29 @@
     },
     "pro-wireframe-usethem": {
       "type": "pro-wireframe-usethem",
+      "blocks": {
+        "b48de4b0-b7bb-4375-8856-504bf301f3f4": {
+          "type": "block",
+          "settings": {
+            "text": "No straining required Makes milk in less than 3 minutes Self-cleaning function We look so much cooler and more compact Insane quality of milk",
+            "image": "shopify:\/\/shop_images\/25_1.png"
+          }
+        },
+        "f06774b2-f643-4ccc-9898-4825202d0021": {
+          "type": "block",
+          "settings": {
+            "text": "Time-consuming prep with pre-soaking of nuts overnight Takes around 15+ minutes Nut bag squeezing Bulky and looks out of place",
+            "image": "shopify:\/\/shop_images\/diff-them_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "b48de4b0-b7bb-4375-8856-504bf301f3f4",
+        "f06774b2-f643-4ccc-9898-4825202d0021"
+      ],
       "settings": {
+        "heading": "Us vs Them",
+        "image": "shopify:\/\/shop_images\/bottom-img.png"
       }
     }
   },
