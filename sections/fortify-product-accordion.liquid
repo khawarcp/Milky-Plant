@@ -28,6 +28,25 @@
 {% schema %}
     {
         "name": "Product Ingredients",
-        "settings": []
+        "settings": [
+          {
+                    "type" : "text",
+                    "id" : "Text",
+                    "label" : "Text"
+                }
+        ],
+        "blocks":[
+          {
+              "name" : "Use",
+              "type" : "use",
+              "settings":[
+                {
+                    "type" : "text",
+                    "id" : "Text",
+                    "label" : "Text"
+                }
+              ]
+          }
+        ]
     }
 {% endschema %}
