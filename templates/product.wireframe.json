@@ -74,19 +74,8 @@
       "settings": {
       }
     },
-    "pro-wireframe-comparision": {
-      "type": "pro-wireframe-comparision",
-      "settings": {
-      }
-    },
-    "pro-wireframe-usethem": {
-      "type": "pro-wireframe-usethem",
-      "settings": {
-      }
-    },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -100,6 +89,16 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
+      }
+    },
+    "pro-wireframe-comparision": {
+      "type": "pro-wireframe-comparision",
+      "settings": {
+      }
+    },
+    "pro-wireframe-usethem": {
+      "type": "pro-wireframe-usethem",
+      "settings": {
       }
     }
   },
