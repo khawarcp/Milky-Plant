@@ -66,7 +66,8 @@
           "type": "block",
           "settings": {
             "text": "Add Ingredients",
-            "subtext": "Add ingredients to the container up until the MIN line"
+            "subtext": "Add ingredients to the container up until the MIN line",
+            "image": "shopify:\/\/shop_images\/31_ab7c299d-38de-4e3d-8f65-d2fb9cfc9beb.png"
           }
         },
         "8727a3dd-beb4-45b5-8eb5-51793d5b4267": {
