@@ -87,6 +87,11 @@
             "show_dynamic_checkout": false
           }
         },
+        "9c84bdbc-d5c5-492e-aea0-851e2cdafaa4": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "406035f3-3dbb-47dc-87ca-f3f64f7c6e61": {
           "type": "payment_kal",
           "settings": {
@@ -109,6 +114,7 @@
         "77bd2dfd-8614-4944-bf47-c9c8112cca02",
         "3172565e-672e-4f5d-bb1c-da76da61c557",
         "a8969a01-b525-4612-bbf1-d7408e76d277",
+        "9c84bdbc-d5c5-492e-aea0-851e2cdafaa4",
         "406035f3-3dbb-47dc-87ca-f3f64f7c6e61",
         "648a6182-2702-4983-84fe-b9fd13c8fa53"
       ],
