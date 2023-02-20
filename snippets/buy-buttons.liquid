@@ -70,6 +70,11 @@
                 {{ 'products.product.add_to_cart' | t }} 
               {%- endif -%}
               </span>
+              {% if template.suffix != 'wireframe' %}                
+              <span class="price-wrap">
+                {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+              </span>
+              {% endif %}
             </span>
             <div class="loading-overlay__spinner hidden">
               <svg
