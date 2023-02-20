@@ -1,12 +1,50 @@
 <div class="selfCleaning">
   <div class="container">
     <div class="selfCleaningContent">
-      <img src="./images/35.png">
+      {% render 'responsive-image', image: section.settings.image %}
       <div class="contentWrapperSelfCleaning">
-        <h2>Self-Cleaning</h2>
-        <p>No need to spend any time cleaning the machine, just add water and push the button it will start the cleaning function.</p>
-        <a href='#'>buy now</a>
+        <h2>
+          {{ section.settings.heading }}
+        </h2>
+        <p>{{ section.settings.info }}</p>
+        {% if section.settings.button_text != blank %}
+          <a href="{{ section.settings.button_url | default: '#' }}">
+            {{ section.settings.button_text }}
+          </a>
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+{% schema %}
+  {
+    "name": "Cleaning",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "info",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ]
+  }
+{% endschema %}
