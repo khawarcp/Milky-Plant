@@ -94,6 +94,13 @@
     "pro-wireframe-comparision": {
       "type": "pro-wireframe-comparision",
       "settings": {
+        "heading": "Dried pulp",
+        "info": "The Milky Plant makes dried pulp from the ingredients used to make your milk. The ptulp can be used for cooking , baking or even compost for plants.",
+        "button_text": "shop now",
+        "button_url": "",
+        "image": "shopify:\/\/shop_images\/37.png",
+        "heading_comparison": "Price Comparison",
+        "subheading": "Price per litter"
       }
     },
     "pro-wireframe-usethem": {
