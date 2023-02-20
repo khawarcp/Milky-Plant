@@ -93,6 +93,37 @@
     },
     "pro-wireframe-comparision": {
       "type": "pro-wireframe-comparision",
+      "blocks": {
+        "413dea8c-5e56-42e8-9ab3-0f42c6496f1c": {
+          "type": "block",
+          "settings": {
+            "text": "Almond milk",
+            "difference": "-66%",
+            "image": "shopify:\/\/shop_images\/39.png"
+          }
+        },
+        "4a312d2d-9c62-4652-92db-fa3df230577d": {
+          "type": "block",
+          "settings": {
+            "text": "Oat milk",
+            "difference": "-94%",
+            "image": "shopify:\/\/shop_images\/40.png"
+          }
+        },
+        "77581354-494d-4abc-8cfc-6dbf96f25cfc": {
+          "type": "block",
+          "settings": {
+            "text": "Cashew milk",
+            "difference": "-68%",
+            "image": "shopify:\/\/shop_images\/41.png"
+          }
+        }
+      },
+      "block_order": [
+        "413dea8c-5e56-42e8-9ab3-0f42c6496f1c",
+        "4a312d2d-9c62-4652-92db-fa3df230577d",
+        "77581354-494d-4abc-8cfc-6dbf96f25cfc"
+      ],
       "settings": {
         "heading": "Dried pulp",
         "info": "The Milky Plant makes dried pulp from the ingredients used to make your milk. The ptulp can be used for cooking , baking or even compost for plants.",
