@@ -1051,7 +1051,7 @@ button.addToCart {
 .klarna {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 40px !important;
     position: relative;
 }
 .klarnaImg {
@@ -1075,7 +1075,7 @@ button.addToCart {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 40px !important;
 }
 
 .freeStuff img {
@@ -2308,6 +2308,18 @@ section.you-sec .inner-helo {
 
 .wirefram-template .product__media-item.grid__item.slider__slide.is-active {
     background: transparent;
+}
+
+.price-parent{
+    position: relative;
+    margin: 0;
+}
+
+.price.price--large.price--show-badge.wirefram-price {
+    position: absolute;
+    top: -70px;
+    z-index: 10;
+    right: 30px;
 }
 
 @media screen and (min-width: 990px){

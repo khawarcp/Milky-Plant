@@ -56,7 +56,8 @@
             id = "ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %} add-button"
+            class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %} add-button 
+          {%- if template.suffix == 'wireframe' %} wirefram-buyBtn{% endif -%}"
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
               disabled
             {% endif %}
@@ -68,9 +69,6 @@
               {%- else -%}
                 {{ 'products.product.add_to_cart' | t }} 
               {%- endif -%}
-              </span>
-              <span class="price-wrap">
-                {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               </span>
             </span>
             <div class="loading-overlay__spinner hidden">
