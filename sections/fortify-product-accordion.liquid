@@ -3,7 +3,7 @@
         <div class="holder">
             <a href="#" class="opener">Ingredients:</a>
             <ul class="images">
-                {% for ingredient in shop.metaobjects.fortify_ingredients.values %}                    
+                {% for ingredient in product.metafields.custom.ingredients.value %}                    
                     <li>
                         {% render 'responsive-image', image: ingredient.ingredient_image.value %}
                         <strong> {{ ingredient.ingredient_name.value }} </strong>
