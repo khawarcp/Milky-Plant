@@ -56,7 +56,7 @@
           "type": "custom_liquid",
           "repeater": "{{ product.metafields.custom.ingredients.value }}",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "asdfas"
           }
         }
       },
