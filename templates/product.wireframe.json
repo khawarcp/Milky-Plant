@@ -51,16 +51,6 @@
             "shipping_image_2": "shopify:\/\/shop_images\/28.png",
             "shipping_image_3": "shopify:\/\/shop_images\/warranty_1.png"
           }
-        },
-        "82a75297-4192-437c-a472-38adddeaf561": {
-          "type": "collapsible_tab",
-          "repeater": "{{ product.metafields.custom.ingredients.value }}",
-          "settings": {
-            "heading": "{{ block.repeater.ingredient_name.value }}",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -71,8 +61,7 @@
         "a8969a01-b525-4612-bbf1-d7408e76d277",
         "9c84bdbc-d5c5-492e-aea0-851e2cdafaa4",
         "406035f3-3dbb-47dc-87ca-f3f64f7c6e61",
-        "648a6182-2702-4983-84fe-b9fd13c8fa53",
-        "82a75297-4192-437c-a472-38adddeaf561"
+        "648a6182-2702-4983-84fe-b9fd13c8fa53"
       ],
       "settings": {
         "enable_sticky_info": true,
