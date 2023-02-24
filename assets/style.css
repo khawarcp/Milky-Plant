@@ -2783,6 +2783,9 @@ ul#predictive-search-results-products-list li a img {
 .asseenOn {
     padding: 60px 0 250px;
 }
+.header__active-menu-item {
+    color: #fff;
+}
 
 
 /* responsiveness */
