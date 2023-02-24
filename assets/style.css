@@ -2765,6 +2765,9 @@ ul#predictive-search-results-products-list li a img {
     width: 76px;
     height: 86.97px;
 }
+.productsSection {
+    background-color: #f6e8e2;
+}
 
 
 /* responsiveness */
