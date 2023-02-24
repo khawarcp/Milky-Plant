@@ -2757,7 +2757,10 @@ ul#predictive-search-results-products-list li a img {
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {
     opacity: 0;
 }
-
+.quick-add.no-js-hidden {
+    position: absolute;
+    right: 0;
+}
 
 
 /* responsiveness */
