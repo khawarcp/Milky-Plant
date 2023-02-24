@@ -613,6 +613,9 @@ span.plusSignBuyNow {
     min-height: 75px;
     margin-top: 40px;
 }
+*:focus-visible {
+    box-shadow: none !important;
+}
 .slideWrapepr {
     display: flex;
     align-items: center;
