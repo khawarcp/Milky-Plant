@@ -2838,7 +2838,9 @@ svg.icon.icon-close path {
 .inner-helo {
     padding: 100px 40px;
 }
-
+.inner-helo {
+    padding: 0px 75px !important;
+}
 
 
 /* responsiveness */
