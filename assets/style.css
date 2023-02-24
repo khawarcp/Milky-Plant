@@ -2745,7 +2745,18 @@ ul#predictive-search-results-products-list li a img {
     margin-bottom: 10px;
     height: 80px;
 }
+.button-wrap {
+    display: flex;
+    justify-content: space-between;
+}
 
+.button-wrap form {
+    width: 90%;
+}
+
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {
+    opacity: 0;
+}
 
 
 
