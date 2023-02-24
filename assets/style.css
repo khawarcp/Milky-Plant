@@ -2837,6 +2837,19 @@ svg.icon.icon-close path {
 
 /* ameer stylings ends */
 @media (max-width:767px) {
+  div#menu-drawer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    z-index: 999;
+}
+
+header.header.header--middle-center.header--mobile-center.container.header--has-menu {
+    position: fixed;
+}
+  
     .usThemContentItem p {
         font-size: 16px;
     }
