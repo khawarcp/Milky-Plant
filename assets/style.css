@@ -878,6 +878,7 @@ footer {
     position: relative;
     max-width: 264px;
     height: 75px;
+    margin-left: -30px;
 
 /* White */
     background: #FFFFFF;
