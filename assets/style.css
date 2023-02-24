@@ -2835,7 +2835,9 @@ svg.icon.icon-close path {
 .footer__content-bottom {
     border-top: 0px solid;
 }
-
+.inner-helo {
+    padding: 100px 40px;
+}
 
 
 
