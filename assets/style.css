@@ -1653,6 +1653,7 @@ section.recpe-blogs {
 }
 section.helo-sec {
     background: linear-gradient(119.1deg, #F9C8C7 -2.36%, #EDD2FF 44.46%, #D3AFE0 95.52%);
+    padding-bottom: 40px;
 }
 
 .inner-helo h3 {
