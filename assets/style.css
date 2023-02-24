@@ -2702,6 +2702,32 @@ section.you-sec .inner-helo {
     
 }
 
+/* New CSS */
+
+svg.icon.icon-search {
+    display: none;
+}
+
+
+input#Search-In-Modal {
+    margin-top: 25px;
+}
+
+.field button {
+    display: none;
+}
+
+.field input {
+    border: 1px solid rgba(0,0,0, 0.5);
+    border-radius: 6px;
+}
+
+button.search-modal__close-button.modal__close-button.link.link--text.focus-inset {
+    margin-top: 20px;
+}
+
+
+
 
 /* responsiveness */
 
