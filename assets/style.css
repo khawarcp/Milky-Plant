@@ -2865,6 +2865,9 @@ svg.icon.icon-close path {
     background-size: 100% 100%;
     bottom: 0;
 }
+  .inner-helo {
+    padding: 0 0px!important;
+}
 header.header.header--middle-center.header--mobile-center.container.header--has-menu {
     position: fixed;
 }
