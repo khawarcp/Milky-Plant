@@ -8,7 +8,7 @@
         "button_text": "LEARN MORE",
         "button_url": "",
         "image": "shopify:\/\/shop_images\/4.png",
-        "background_image": "shopify:\/\/shop_images\/5.png"
+        "background_image": "shopify:\/\/shop_images\/abd.png"
       }
     },
     "edac6e5b-d71b-445b-9f00-ae2c74497438": {
@@ -19,7 +19,10 @@
           "milky-plant",
           "milky-plant-1",
           "milky-plant-2"
-        ]
+        ],
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true
       }
     },
     "55d246fe-1e43-42ac-a72c-9713ce5e3735": {
