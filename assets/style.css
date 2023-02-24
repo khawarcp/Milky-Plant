@@ -2821,6 +2821,15 @@ ul#predictive-search-results-products-list li a img {
 p.copyright-footer {
     margin-top: 14px;
 }
+svg.icon.icon-hamburger path {
+    color: #fff;
+}
+
+svg.icon.icon-hamburger {
+    height: 30px;
+    width: 40px;
+}
+
 
 /* responsiveness */
 
