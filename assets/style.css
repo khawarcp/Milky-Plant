@@ -2841,6 +2841,10 @@ svg.icon.icon-close path {
 .inner-helo {
     padding: 0px 75px !important;
 }
+.media--transparent {
+    background-color: #f4ccde !important;
+}
+
 
 
 /* responsiveness */
