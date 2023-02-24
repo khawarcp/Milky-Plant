@@ -2768,6 +2768,10 @@ ul#predictive-search-results-products-list li a img {
 .productsSection {
     background-color: #f6e8e2;
 }
+.imageWrapepr img {
+    max-width: 156px;
+}
+
 
 
 /* responsiveness */
