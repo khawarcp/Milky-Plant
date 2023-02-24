@@ -2760,6 +2760,7 @@ ul#predictive-search-results-products-list li a img {
 .quick-add.no-js-hidden {
     position: absolute;
     right: 0;
+    margin-top: -10px;
 }
 .quick-add.no-js-hidden button {
     width: 76px;
