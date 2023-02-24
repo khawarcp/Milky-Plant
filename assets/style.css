@@ -2728,7 +2728,9 @@ button.search-modal__close-button.modal__close-button.link.link--text.focus-inse
 .search-modal {
     height: 120%;
 }
-
+.list-unstyled {
+    flex-wrap: wrap;
+}
 
 
 
