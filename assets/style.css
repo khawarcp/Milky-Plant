@@ -2789,6 +2789,17 @@ ul#predictive-search-results-products-list li a img {
 .latering-text img {width: 408px;}
 
 .latering-text {display: flex;justify-content: center;margin-bottom: 40px;}
+.contentWrapepr span {
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    font-weight: 700;
+    margin-top: 30px;
+    display: block;
+}
 
 
 /* responsiveness */
