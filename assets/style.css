@@ -612,6 +612,7 @@ span.plusSignBuyNow {
     color: #FFFFFF;
     min-width: 347px;
     min-height: 75px;
+    margin-top: 40px;
 }
 .slideWrapepr {
     display: flex;
