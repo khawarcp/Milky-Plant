@@ -2804,6 +2804,16 @@ ul#predictive-search-results-products-list li a img {
     margin-top: 30px;
     display: block;
 }
+.form__message {
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px !important;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
 
 
 /* responsiveness */
