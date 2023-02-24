@@ -91,14 +91,14 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/12.png",
-            "headingto": ""
+            "headingto": "Designed with love in the U.K."
           }
         },
         "c2a7a5ae-b709-49b8-9d9f-60feea9266aa": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/13.png",
-            "headingto": "wdawd"
+            "headingto": "Ethical manufacturing"
           }
         }
       },
