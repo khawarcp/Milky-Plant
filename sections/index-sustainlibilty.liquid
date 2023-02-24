@@ -3,7 +3,7 @@
   <div
     class="ccontainer">
     <h2>
-      {{ section.settings.heading }}
+      {{ section.settings.heading | image_url: 'master' }}
     </h2>
     {% if section.settings.image != blank %}
       <img
