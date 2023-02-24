@@ -2731,6 +2731,19 @@ button.search-modal__close-button.modal__close-button.link.link--text.focus-inse
 .list-unstyled {
     flex-wrap: wrap;
 }
+ul#predictive-search-results-products-list a {
+    display: flex;
+    flex-direction: column;
+}
+
+ul#predictive-search-results-products-list li {
+    width: 20%;
+}
+
+ul#predictive-search-results-products-list li a img {
+    margin-bottom: 20px;
+}
+
 
 
 
