@@ -716,6 +716,7 @@ footer {
 /* identical to box height, or 150% */
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.8);
+  outline: none;
 }
 
 .leftFooter {
