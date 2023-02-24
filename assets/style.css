@@ -2780,7 +2780,9 @@ ul#predictive-search-results-products-list li a img {
 .innerSlideContainer img {
     height: 300px;
 }
-
+.asseenOn {
+    padding: 60px 0 250px;
+}
 
 
 /* responsiveness */
