@@ -2775,11 +2775,9 @@ ul#predictive-search-results-products-list li a img {
     background-color: #f6e8e2;
 }
 .imageWrapepr img {
-    max-width: fit-content;
+    max-width: 156px;
 }
-.products:first-child img {
-    width: 160px;
-}
+
 .innerSlideContainer h5 {
     display: flex;
     justify-content: center;
