@@ -2725,6 +2725,9 @@ input#Search-In-Modal {
 button.search-modal__close-button.modal__close-button.link.link--text.focus-inset {
     margin-top: 20px;
 }
+.search-modal {
+    height: 120%;
+}
 
 
 
