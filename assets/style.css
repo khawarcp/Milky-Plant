@@ -2775,7 +2775,9 @@ ul#predictive-search-results-products-list li a img {
 .innerSlideContainer h5 {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
+
 
 
 /* responsiveness */
