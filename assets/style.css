@@ -2741,7 +2741,8 @@ ul#predictive-search-results-products-list li {
 }
 
 ul#predictive-search-results-products-list li a img {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    height: 80px;
 }
 
 
