@@ -1003,8 +1003,8 @@ footer {
     width: 191px !important;
 }
 
-.product-form__input input[type='radio']:checked + label {
-    color: #fff !important;
+.product-form__input input[type=radio]:checked+label {
+    background-color: #fff !important;
 }
 
 .wirefram-template .add-button {
