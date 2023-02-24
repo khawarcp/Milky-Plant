@@ -2845,6 +2845,12 @@ svg.icon.icon-close path {
 .media--transparent {
     background-color: #f4ccde !important;
 }
+body.gradient.template-product-wireframe .imageWrapepr img {
+    max-width: fit-content;
+}
+body.gradient.template-product-wireframe .products:first-child img {
+    width: 160px;
+}
 
 
 
