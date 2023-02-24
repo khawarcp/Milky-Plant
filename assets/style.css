@@ -2829,7 +2829,9 @@ svg.icon.icon-hamburger {
     height: 30px;
     width: 40px;
 }
-
+svg.icon.icon-close path {
+    color: #fff;
+}
 
 /* responsiveness */
 
