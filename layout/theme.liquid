@@ -448,7 +448,7 @@
  <link rel="icon" href="https://cdn.shopify.com/s/files/1/0723/4129/1330/files/FAV_Icon_ea474768-7a02-4e83-918c-41e3c4a30ff7.png?v=1677263905">
   </head>
 
-  <body class="gradient">
+  <body class="gradient template-{{ template | replace: '.', '-' | replace: '/', '-' }}"> 
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
