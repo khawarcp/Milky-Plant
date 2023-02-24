@@ -2832,6 +2832,12 @@ svg.icon.icon-hamburger {
 svg.icon.icon-close path {
     color: #fff;
 }
+.footer__content-bottom {
+    border-top: 0px solid;
+}
+
+
+
 
 /* responsiveness */
 
