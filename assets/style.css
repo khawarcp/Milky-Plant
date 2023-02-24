@@ -352,9 +352,10 @@ span.plusSignBuyNow {
 .productsSection {
     background: url('product-bg.png');
     padding: 100px 0px;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+  
 }
 
 .products:after {
