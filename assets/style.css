@@ -2786,6 +2786,9 @@ ul#predictive-search-results-products-list li a img {
 .header__active-menu-item {
     color: #fff;
 }
+.latering-text img {width: 408px;}
+
+.latering-text {display: flex;justify-content: center;margin-bottom: 40px;}
 
 
 /* responsiveness */
