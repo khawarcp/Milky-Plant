@@ -2772,7 +2772,10 @@ ul#predictive-search-results-products-list li a img {
 .imageWrapepr img {
     max-width: 156px;
 }
-
+.innerSlideContainer h5 {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* responsiveness */
