@@ -1638,7 +1638,7 @@ section.recpe-blogs {
     height: 100%;
     min-height: 1076px;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     padding-top: 215px;
 }
 
