@@ -2816,7 +2816,9 @@ ul#predictive-search-results-products-list li a img {
     justify-content: center;
     margin-top: 30px;
 }
-
+p.copyright-footer {
+    margin-top: 14px;
+}
 
 /* responsiveness */
 
