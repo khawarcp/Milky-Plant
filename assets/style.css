@@ -2849,7 +2849,9 @@ body.gradient.template-product-wireframe .imageWrapepr img {
 body.gradient.template-product-wireframe .products:first-child img {
     width: 160px;
 }
-
+span.clr-gr {
+    color: #006650;
+}
 
 
 /* responsiveness */
