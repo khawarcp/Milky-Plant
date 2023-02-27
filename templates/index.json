@@ -78,7 +78,7 @@
       "type": "index-impact",
       "settings": {
         "heading": "Our Impact",
-        "info": "<p>We donate 1% of all our proceeds to the world’s most pressing environmental and social issues such as deforestation , renewable energy creation and so much more.<\/p><p>We have planted over 10,000 trees to help the fight against climate change.<\/p>",
+        "info": "<p>We donate &lt;span&gt;1%&lt;\/span&gt; of all our proceeds to the world’s most pressing environmental and social issues such as deforestation , renewable energy creation and so much more.<\/p><p>We have planted over 10,000 trees to help the fight against climate change.<\/p>",
         "image_1": "shopify:\/\/shop_images\/9.png",
         "image_2": "shopify:\/\/shop_images\/Background_1.png",
         "background_image": "shopify:\/\/shop_images\/21.png"
