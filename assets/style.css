@@ -3092,6 +3092,10 @@ div#shopify-section-template--17959140720962__cart-items {
 .recp-width:nth-child(2) img {
     transform: rotate(4deg);
 }
+.pagination-wrapper {
+    display: none;
+}
+
 
 /* responsiveness */
 /* ameer stylings ends */
