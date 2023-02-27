@@ -3647,7 +3647,11 @@ svg.icon.icon-hamburger path {
     max-width: 90%;
     margin: auto;
 }
-  
+fieldset.js.product-form__input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}  
 
 
   
