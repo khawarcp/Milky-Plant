@@ -103,6 +103,9 @@ header.container.header--has-menu {
     z-index: 1;
     position: relative;
 }
+.productsSection {
+    margin-top: -110px;
+}
 
 .banenrWrapper .container {
     display: flex;
