@@ -2872,7 +2872,7 @@ body.gradient.template-page-contact h2.form-status.form-status-list.form__messag
 }
 
 .product-form__buttons {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 
