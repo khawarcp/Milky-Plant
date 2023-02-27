@@ -3097,6 +3097,12 @@ div#shopify-section-template--17959140720962__cart-items {
   .product__info-wrapper.grid__item.product-details {
     padding-left: 40px !important;
 }
+  .fourcols .img-holder {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
   
 
 }
