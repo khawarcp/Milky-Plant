@@ -2859,6 +2859,10 @@ span.clr-gr {
 .template-404.page-width.page-margin.center {
     margin: 200px 0px 100px 0px;
 }
+div#cart-notification {
+    z-index: 99;
+}
+
 
 /* responsiveness */
 
