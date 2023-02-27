@@ -2895,6 +2895,15 @@ span.product__media-icon.motion-reduce.quick-add-hidden.product__media-icon--lig
 .h-banner {
     border: none !important;
 }
+button#ProductSubmitButton-template--17959140524354__main {border: 2px solid #1c5597;background-color: transparent;color: #1c5597;}
+
+span.price-item.price-item--regular {
+    color: #1c5597;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw {
+    background-color: #1c5597;
+}
 
 
 /* responsiveness */
