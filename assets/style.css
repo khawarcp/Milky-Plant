@@ -1439,13 +1439,15 @@ button.addToCart {
     object-fit: contain;
     margin: auto;
 }
+
 .usThemContentItem p {
     font-weight: 400;
     font-size: 25px;
     line-height: 27px;
     text-align: center;
     letter-spacing: 1px;
-    color: #1C5597;
+    color: #1c5597;
+    margin-top: 27px;
 }
 .bottomImg img{
     margin: auto;
