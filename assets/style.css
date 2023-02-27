@@ -2862,6 +2862,11 @@ span.clr-gr {
 div#cart-notification {
     z-index: 99;
 }
+body.gradient.template-page-contact h2.form-status.form-status-list.form__message {
+    color: #000;
+    max-width: 80%;
+    margin: auto;
+}
 
 
 /* responsiveness */
