@@ -3105,6 +3105,13 @@ div#shopify-section-template--17959140720962__cart-items {
 .pagination-wrapper {
     display: none;
 }
+.template-search.section-template--17959140262210__main-padding {
+    margin-top: 200px;
+}
+
+predictive-search label.field__label {
+    display: none;
+}
 
 
 /* responsiveness */
