@@ -2841,7 +2841,7 @@ svg.icon.icon-close path {
     padding: 0px 75px !important;
 }
 .media--transparent {
-    background-color: #f4ccde !important;
+    background: linear-gradient(153.16deg,#f6ccd9 5.56%,#f1ceeb 93.31%,#f1cfec 153.92%);
 }
 body.gradient.template-product-wireframe .imageWrapepr img {
     max-width: fit-content;
