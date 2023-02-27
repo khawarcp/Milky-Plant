@@ -2886,7 +2886,12 @@ body.gradient.template-page-contact h2.form-status.form-status-list.form__messag
 span.product__media-icon.motion-reduce.quick-add-hidden.product__media-icon--lightbox {
     display: none;
 }
-
+.product__media.media.media--transparent img {
+    object-fit: none;
+}
+.product__media.media.media--transparent {
+    background: transparent;
+}
 
 
 /* responsiveness */
