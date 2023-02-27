@@ -2850,7 +2850,7 @@ body.gradient.template-product-wireframe .products:first-child img {
     width: 160px;
 }
 span.clr-gr {
-    color: #006650;
+    color: #006650 !important;
 }
 
 
