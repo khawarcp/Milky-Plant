@@ -3065,6 +3065,13 @@ div#shopify-section-template--17959140720962__cart-items {
     / line-height: normal; /
     font-size: 16px;
 }
+.grid__item.product__media-wrapper {
+    width: 50%;
+}
+
+.product__info-wrapper.grid__item.product-details {
+    width: 50%;
+}
 
 
 
