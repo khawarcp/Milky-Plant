@@ -2783,8 +2783,9 @@ ul#predictive-search-results-products-list li a img {
     height: 86.97px;
 }
 .productsSection {
-    background-color: #f6e8e2;
+    background-color: transparent;
 }
+
 .imageWrapepr img {
     max-width: 156px;
 }
