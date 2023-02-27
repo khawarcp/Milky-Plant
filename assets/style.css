@@ -3112,6 +3112,9 @@ div#shopify-section-template--17959140720962__cart-items {
 predictive-search label.field__label {
     display: none;
 }
+.card__badge.bottom.left {
+    display: none;
+}
 
 
 /* responsiveness */
