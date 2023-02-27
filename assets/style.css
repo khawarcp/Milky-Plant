@@ -2889,9 +2889,9 @@ span.product__media-icon.motion-reduce.quick-add-hidden.product__media-icon--lig
 .product__media.media.media--transparent img {
     object-fit: none;
 }
-.product__media.media.media--transparent {
+/* .product__media.media.media--transparent {
     background: transparent;
-}
+} */
 .h-banner {
     border: none !important;
 }
