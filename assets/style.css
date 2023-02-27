@@ -3083,7 +3083,9 @@ div#shopify-section-template--17959140720962__cart-items {
 .shopify-payment-button__button, .add-button {
     padding: 0 10px;
 }
-
+.product-details h1 {
+    text-align: start;
+}
 
 
 
