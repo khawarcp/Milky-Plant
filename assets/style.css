@@ -3084,7 +3084,9 @@ div#shopify-section-template--17959140720962__cart-items {
     padding: 0 10px;
 }
 
-
+  .product__info-wrapper.grid__item.product-details {
+    padding-left: 40px !important;
+}
 
 
 /* responsiveness */
@@ -3099,9 +3101,7 @@ div#shopify-section-template--17959140720962__cart-items {
     width: 100%;
     z-index: 999;
 }
-  .product__info-wrapper.grid__item.product-details {
-    padding-left: 40px !important;
-}
+
   
 .banenrWrapper2:after {
     content: "";
