@@ -1619,7 +1619,7 @@ section.recpe-blogs {
     height: auto;
     margin-bottom: 48px;
     height: 60px;
-    overflow-y: auto;
+    overflow-y: initial;
     padding: 7px 0;
 }
 
