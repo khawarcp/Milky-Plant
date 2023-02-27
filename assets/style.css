@@ -258,23 +258,21 @@ span.plusSignBuyNow {
     min-height: 376px;
     background: #FFFFFF;
     border-radius: 60px;
-    font-family: 'Basic', sans-serif;
+    font-family: Basic,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 42px;
-    /* or 80% */
     text-align: center;
     letter-spacing: 1px;
-    color: #000000;
-    padding: 50px;
+    color: #000;
     left: 85px;
     position: absolute;
     top: 20px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    padding: 0px 28px;
-    /* max-width: max-content; */
+    padding: 74px 28px;
+    margin: auto;
 }
 .paraWrapper p:first-child::after {
     width: 108.05px;
