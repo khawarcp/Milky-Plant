@@ -2551,6 +2551,9 @@ section.you-sec .inner-helo {
     .colleftDried {
         width: 100%;
     }
+  .containerRow {
+    padding: 20px 20px 20px 20px;
+}
     .driedPulp {
         padding-top: 70px;
     }
