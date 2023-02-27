@@ -2852,7 +2852,13 @@ body.gradient.template-product-wireframe .products:first-child img {
 span.clr-gr {
     color: #006650 !important;
 }
+.template-404.page-width.page-margin.center p {
+    font-size: 40px;
+}
 
+.template-404.page-width.page-margin.center {
+    margin: 200px 0px 100px 0px;
+}
 
 /* responsiveness */
 
