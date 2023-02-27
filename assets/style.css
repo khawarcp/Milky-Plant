@@ -3080,6 +3080,10 @@ div#shopify-section-template--17959140720962__cart-items {
     letter-spacing: 1px;
     color: #1c5597;
 }
+.shopify-payment-button__button, .add-button {
+    padding: 0 10px;
+}
+
 
 
 
