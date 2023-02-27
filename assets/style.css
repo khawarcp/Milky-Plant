@@ -2522,6 +2522,9 @@ section.you-sec .inner-helo {
   .custom-shape-divider-bottom-1675884159 svg {
     height: 88px;
 }
+  .bottomImg {
+    margin-bottom: 40px;
+}
     .priceComparisonItems {
         gap: 140px 40px;
         padding-bottom: 60px;
