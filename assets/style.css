@@ -1281,9 +1281,9 @@ button.addToCart {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: linear-gradient(151.46deg, #F9C8C7 -5.39%, #EDD2FF 90.68%, #F24938 186.74%);
+    background: linear-gradient(151.46deg,#F9C8C7 -5.39%,#EDD2FF 90.68%,#F24938 186.74%);
     border-radius: 60px;
-    padding: 20px 30px;
+    padding: 20px 147px 20px 20px;
     position: relative;
     justify-content: space-between;
 }
