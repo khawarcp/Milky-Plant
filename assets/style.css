@@ -2883,7 +2883,9 @@ body.gradient.template-page-contact h2.form-status.form-status-list.form__messag
 .product-form__buttons {
     max-width: 100% !important;
 }
-
+span.product__media-icon.motion-reduce.quick-add-hidden.product__media-icon--lightbox {
+    display: none;
+}
 
 
 
