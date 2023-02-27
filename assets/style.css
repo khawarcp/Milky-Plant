@@ -3085,8 +3085,12 @@ div#shopify-section-template--17959140720962__cart-items {
 .product-details h1 {
     text-align: start;
 }
-
-
+.recp-width img {
+    transform: rotate(-4deg);
+}
+.recp-width:nth-child(2) img {
+    transform: rotate(4deg);
+}
 
 /* responsiveness */
 /* ameer stylings ends */
