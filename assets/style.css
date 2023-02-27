@@ -3061,6 +3061,10 @@ div#shopify-section-template--17959140720962__cart-items {
     border-bottom: none !important;
     margin: 0px !important;
 }
+.shopify-policy__body {
+    / line-height: normal; /
+    font-size: 16px;
+}
 
 
 
