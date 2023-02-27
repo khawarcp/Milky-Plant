@@ -1600,8 +1600,9 @@ section.recpe-blogs {
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 1px;
-    color: #1C5597;
+    color: #1c5597;
     margin: 18px 0;
+    min-height: 110px; 
 }
 
 .resc-width p {
