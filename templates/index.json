@@ -78,7 +78,7 @@
       "type": "index-impact",
       "settings": {
         "heading": "Our Impact",
-        "info": "We donate <span class=\"clr-gr\">1%<\/span> of all our proceeds to the world’s most pressing environmental and social issues such as deforestation , renewable energy creation and so much more.",
+        "info": "<p>We donate <span class=\"clr-gr\">1%<\/span> of all our proceeds to the world’s most pressing environmental and social issues such as deforestation , renewable energy creation and so much more. <\/p>",
         "image_1": "shopify:\/\/shop_images\/9.png",
         "image_2": "shopify:\/\/shop_images\/Background_1.png",
         "background_image": "shopify:\/\/shop_images\/21.png"
