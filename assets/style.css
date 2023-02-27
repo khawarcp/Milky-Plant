@@ -1860,9 +1860,9 @@ section.you-sec .inner-helo {
 }
 .flag-icon {
     position: absolute;
-    left: 291px;
+    left: 50px;
     bottom: -168px;
-    z-index:1;
+    z-index: 1;
 }
 .h-container{
     max-width: 1281px;
