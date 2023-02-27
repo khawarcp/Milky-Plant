@@ -3057,6 +3057,9 @@ div#shopify-section-template--17959140720962__cart-items {
     line-height: normal;
     margin: 20px 0px 20px;
 }
+.holder:nth-child(1) {
+    border-bottom: none;
+}
 
 
 
