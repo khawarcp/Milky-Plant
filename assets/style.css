@@ -2871,6 +2871,12 @@ body.gradient.template-page-contact h2.form-status.form-status-list.form__messag
     margin: auto;
 }
 
+.product-form__buttons {
+    max-width: 100%;
+}
+
+
+
 
 /* responsiveness */
 
