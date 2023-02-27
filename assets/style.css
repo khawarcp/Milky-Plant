@@ -2889,7 +2889,7 @@ span.product__media-icon.motion-reduce.quick-add-hidden.product__media-icon--lig
 .product__media.media.media--transparent img {
     object-fit: none;
 }
-.body.gradient.template-product .product__media.media.media--transparent {
+.template-product .product__media.media.media--transparent {
     background: transparent;
 }
 .h-banner {
