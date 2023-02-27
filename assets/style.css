@@ -1362,9 +1362,10 @@ button.addToCart {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
 .priceComparisonItem {
     position: relative;
-    width: calc(33% - 20px);
+    width: calc(30.7% - 20px);
     background-color: #fff;
     border-radius: 60px;
     height: 440px;
