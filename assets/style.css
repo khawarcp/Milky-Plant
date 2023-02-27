@@ -3084,14 +3084,21 @@ div#shopify-section-template--17959140720962__cart-items {
     padding: 0 10px;
 }
 
-  .product__info-wrapper.grid__item.product-details {
-    padding-left: 40px !important;
-}
+
 
 
 /* responsiveness */
-
 /* ameer stylings ends */
+
+
+@media (max-width:1200px) {
+  .product__info-wrapper.grid__item.product-details {
+    padding-left: 40px !important;
+}
+  
+
+}
+
 @media (max-width:767px) {
   div#menu-drawer {
     position: fixed;
