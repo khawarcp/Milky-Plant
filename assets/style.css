@@ -2904,6 +2904,100 @@ span.price-item.price-item--regular {
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw {
     background-color: #1c5597;
 }
+div#shopify-section-template--17959140720962__cart-items {
+    margin: 200px 0px 40px;
+}
+
+.title-wrapper--no-top-margin>.title {
+    font-size: 42px;
+    max-width: 609px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 105px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    margin-bottom: 30px;
+    / text-align: left; /
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 71px;
+}
+
+.full-unstyled-link {
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    color: #17457a;
+    text-align: center;
+}
+
+.card-information {
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    text-align: center;
+}
+
+.card--standard .card__inner {
+    max-height: 400px;
+}
+
+.center.collection__view-all a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 57px;
+    min-width: 270px;
+    min-height: 75px;
+    background: #1C5597;
+    border-radius: 100px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    max-width: max-content;
+    margin: 40px auto 0;
+    border: 2px solid #1C5597;
+    transition: .8s all;
+}
+
+.cart__warnings a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 57px;
+    min-width: 270px;
+    min-height: 75px;
+    background: #1C5597;
+    border-radius: 100px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    max-width: max-content;
+    margin: 40px auto 0;
+    border: 2px solid #1C5597;
+    transition: .8s all;
+}
 
 
 /* responsiveness */
@@ -3462,6 +3556,138 @@ footer {
 svg.icon.icon-hamburger path {
     fill: white;
 }
+
+div#shopify-section-template--17959140720962__cart-items {
+    margin: 200px 0px 40px;
+}
+
+.title-wrapper--no-top-margin>.title {
+    font-size: 42px;
+    max-width: 609px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 105px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    margin-bottom: 30px;
+    / text-align: left; /
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 71px;
+}
+
+.full-unstyled-link {
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    color: #17457a;
+    text-align: center;
+}
+
+.card-information {
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    text-align: center;
+}
+
+.card--standard .card__inner {
+    max-height: 400px;
+}
+
+.center.collection__view-all a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 57px;
+    min-width: 270px;
+    min-height: 75px;
+    background: #1C5597;
+    border-radius: 100px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    max-width: max-content;
+    margin: 40px auto 0;
+    border: 2px solid #1C5597;
+    transition: .8s all;
+}
+
+.cart__warnings a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 57px;
+    min-width: 270px;
+    min-height: 75px;
+    background: #1C5597;
+    border-radius: 100px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    max-width: max-content;
+    margin: 40px auto 0;
+    border: 2px solid #1C5597;
+    transition: .8s all;
+}
+
+div#shopify-section-template--17959140720962__cart-items {
+    margin: 20px 0px;
+}
+
+.title-wrapper--no-top-margin>.title {
+    font-size: 32px;
+    line-height: normal;
+}
+
+.cart__warnings a {
+    font-size: 14px;
+    line-height: normal;
+    padding: 0;
+    height: auto;
+    min-height: auto;
+    padding: 16px 40px;
+    min-width: auto;
+}
+
+.product-card-wrapper .card {
+}
+
+.grid__item {
+    margin-bottom: 20px;
+    width: 100% !important;
+}
+
+.full-unstyled-link {
+    font-size: 24px;
+    line-height: normal;
+}
+
+.columnRIghtFooter.thirdColumn>a {
+    margin-left: 0;
+}
+  
 
 }
 
