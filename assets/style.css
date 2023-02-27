@@ -2998,6 +2998,66 @@ div#shopify-section-template--17959140720962__cart-items {
     border: 2px solid #1C5597;
     transition: .8s all;
 }
+.shopify-policy__container {
+    max-width: 1440px;
+    padding: 0px 30px;
+    margin: 160px 0px  100px;
+}
+
+.shopify-policy__container h1 {
+    font-size: 42px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+
+.shopify-policy__body p {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 300;
+    font-family: Basic,sans-serif;
+}
+
+.shopify-policy__container {
+    max-width: 1440px;
+    padding: 0px 30px;
+    margin: 160px 0px  100px;
+}
+
+.shopify-policy__container h1 {
+    font-size: 42px;
+    font-family: Basic,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    color: #1c5597;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 70px;
+}
+
+.shopify-policy__body p {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 300;
+    font-family: Basic,sans-serif;
+}
+
+.shopify-policy__container h1, .shopify-policy__container h2 {
+    font-size: 32px;
+    line-height: normal;
+    margin: 20px 0px 20px;
+}
+
 
 
 /* responsiveness */
