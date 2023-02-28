@@ -2341,7 +2341,15 @@ section.you-sec .inner-helo {
         max-width: 50% !important;
         width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     }
-
+div#menu-drawer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    z-index: 999;
+}
+  
   
 }
 
