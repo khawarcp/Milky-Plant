@@ -1429,7 +1429,7 @@ button.addToCart {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    max-width: 950px;
+    max-width: 992px;
     margin: auto;
 }
 .usThemContentItem {
