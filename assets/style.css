@@ -3260,7 +3260,11 @@ body.gradient.template-product .product__media.media.media--transparent img {
     width: 100%;
     z-index: 999;
 }
-
+body.gradient.template-product .product__media.media.media--transparent img {
+    object-fit: contain;
+    padding: 0 20px;
+}
+  
   
 .banenrWrapper2:after {
     content: "";
