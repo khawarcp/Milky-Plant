@@ -3119,6 +3119,10 @@ predictive-search label.field__label {
     max-width: 70%;
     margin: auto;
 }
+button.button.btn-cart.btn_theme {
+    border-radius: 118px 0px 0px 118px;
+}
+
 
 
 /* responsiveness */
