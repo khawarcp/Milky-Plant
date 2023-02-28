@@ -391,7 +391,7 @@ $('.tabbingContainer ul li:first-child .desc').css('display', 'block');
   $('.material-area .holder:first-child').addClass('active');
   
   $('.material-area .holder .opener').click(function(){
-    $('.material-area .holder').removeClass('active');
+    $('.material-area .holder, .material-area .holder:first-child').removeClass('active');
     $(this).closest('.holder').addClass('active')
   })
   $('.material-area .holder:first-child ul').css('display', 'flex');
