@@ -1509,8 +1509,9 @@ button.addToCart {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 1px;
-    color: #1C5597;
+    color: #1c5597;
     margin-top: 30px;
+    min-height: 75px;
 }
 
 .recp-width p {
