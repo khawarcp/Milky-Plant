@@ -3195,7 +3195,9 @@ body.gradient.template-product-wireframe .product__media.media.media--transparen
 body.gradient.template-product-wireframe .products {
     min-height: 454px !important;
 }
-
+body.gradient.template-product-wireframe .products:nth-child(1) img {
+    width: 156px;
+}
 body.gradient.template-product-wireframe .products:nth-child(2) img {
     width: 318px;
 }
