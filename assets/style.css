@@ -2341,6 +2341,8 @@ section.you-sec .inner-helo {
         max-width: 50% !important;
         width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     }
+
+  
 }
 
 @media screen and (min-width: 750px){
@@ -2521,6 +2523,9 @@ section.you-sec .inner-helo {
     .usThemContentItem p {
         font-size: 20px;    
     }
+  .header__icons {
+    justify-content: end;
+}
     .usThem {
     padding-top: 70px;
     padding-bottom: 130px;
