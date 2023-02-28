@@ -1513,7 +1513,9 @@ button.addToCart {
     margin-top: 30px;
     min-height: 75px;
 }
-
+.resc-width:nth-child(3) h3 {
+    margin-top: 28px;
+}
 .recp-width p {
     font-style: normal;
     font-weight: 400;
