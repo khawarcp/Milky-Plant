@@ -3192,7 +3192,12 @@ body.gradient.template-product-wireframe .product__media.media.media--transparen
     font-weight: 700;
     padding-left: 20px;
 }
-
+body.gradient.template-product-wireframe .products:nth-child(2) img {
+    width: 318px;
+}
+body.gradient.template-product-wireframe .products:nth-child(3) img {
+    max-width: 302px;
+}
 
 
 /* responsiveness */
