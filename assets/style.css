@@ -3219,6 +3219,9 @@ body.gradient.template-product-wireframe .detailproductsSection {
     background: #EDD2FF!important;
     margin-top: 0px;
 }
+.product-form__submit {
+    margin-bottom: 38px;
+}
 
 
 /* responsiveness */
