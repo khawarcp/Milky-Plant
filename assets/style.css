@@ -2842,6 +2842,9 @@ ul#predictive-search-results-products-list li a img {
     box-shadow: none !important;
     outline: none !important;
 }
+div#menu-drawer {
+    transition: 0.8s;
+}
 p.copyright-footer {
     margin-top: 14px;
 }
