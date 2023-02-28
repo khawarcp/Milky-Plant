@@ -3172,6 +3172,12 @@ p.shopify-challenge__message {
     font-size: 20px;
     margin-bottom: 20px;
 }
+input.shopify-challenge__button.btn {
+    font-size: 16px;
+    border: 2px solid #1c5597;
+    margin-top: 20px;
+    border-radius: 8px;
+}
 
 
 
