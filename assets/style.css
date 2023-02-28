@@ -2534,7 +2534,10 @@ section.you-sec .inner-helo {
     top: 80px;
     width: 100%;
     z-index: 999;
+    height: 100%;
 }
+
+
     .usThem {
     padding-top: 70px;
     padding-bottom: 130px;
