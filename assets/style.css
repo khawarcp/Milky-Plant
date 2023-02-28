@@ -2098,7 +2098,7 @@ section.you-sec .inner-helo {
 }
 
 .ingredients .holder {
-    margin:0 0 60px;
+/*     margin:0 0 60px; */
     border-bottom: 2px solid #1C5597;
     border-top: 2px solid #1C5597;
 }
@@ -3229,7 +3229,7 @@ div#Quantity-Form-template--17959140524354__main button {
     outline: none !important;
 } 
 .holder:nth-child(1) a {
-    padding: 60px 0px 0px 0px;
+    padding: 60px 0x;
 }
 body.gradient.template-product .product__media.media.media--transparent img {
     object-fit: contain;
