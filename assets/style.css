@@ -3153,6 +3153,9 @@ button.button.btn-cart.btn_theme {
 .sliderWrapper.slick-initialized.slick-slider {
     margin-left: -10px !important;
 }
+.footer__content-bottom {
+    border: none;
+}
 
 
 /* responsiveness */
