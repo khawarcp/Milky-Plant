@@ -3232,6 +3232,10 @@ body.gradient.template-product .product__media.media.media--transparent img {
     object-fit: contain;
     padding: 0px 80px;
 }
+div#shopify-section-template--17959140393282__main {
+    margin-top: 200px;
+}
+
 
 /* responsiveness */
 /* ameer stylings ends */
