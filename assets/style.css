@@ -3228,7 +3228,10 @@ div#Quantity-Form-template--17959140524354__main button {
 .holder:nth-child(1) a {
     padding: 60px 0px 0px 0px;
 }
-
+body.gradient.template-product .product__media.media.media--transparent img {
+    object-fit: contain;
+    padding: 0px 80px;
+}
 
 /* responsiveness */
 /* ameer stylings ends */
