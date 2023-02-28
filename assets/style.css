@@ -3236,7 +3236,7 @@ div#shopify-section-template--17959140393282__main {
     margin-top: 200px;
   margin-bottom: 100px;
 }
-.card__content {
+body.gradient.template-cart .card__content {
     width: 300px !important;
     min-height: 150px !important;
 }
