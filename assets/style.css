@@ -3183,6 +3183,9 @@ input.shopify-challenge__button.btn {
     margin-top: 20px;
     border-radius: 8px;
 }
+body.gradient.template-product-wireframe .product__media.media.media--transparent img {
+    object-fit: contain;
+}
 
 
 
