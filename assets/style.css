@@ -3236,6 +3236,14 @@ div#shopify-section-template--17959140393282__main {
     margin-top: 200px;
   margin-bottom: 100px;
 }
+.card__content {
+    width: 300px;
+    min-height: 300px;
+}
+
+.price.price-fortify {
+    text-align: center;
+}
 
 
 /* responsiveness */
