@@ -2468,9 +2468,9 @@ section.you-sec .inner-helo {
         margin-left: 40px;        
         width: calc(100% - 460px);
     }
-    .banenrWrapper2 {
-        min-height: 625px;
-    }
+   .banenrWrapper2 {
+    min-height: 1020px;
+}
     .inner-helo {
         padding: 70px 0;
     }
