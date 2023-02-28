@@ -3237,8 +3237,8 @@ div#shopify-section-template--17959140393282__main {
   margin-bottom: 100px;
 }
 .card__content {
-    width: 300px;
-    min-height: 300px;
+    width: 300px !important;
+    min-height: 300px !important;
 }
 
 .price.price-fortify {
