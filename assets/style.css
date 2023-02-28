@@ -3199,7 +3199,7 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
     max-width: 302px;
 }
 body.gradient.template-product-wireframe .detailproductsSection {
-    background: #EDD2FF;
+    background: #EDD2FF !important;
 }
 
 /* responsiveness */
