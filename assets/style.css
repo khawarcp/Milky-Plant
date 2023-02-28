@@ -3225,6 +3225,9 @@ body.gradient.template-product-wireframe .detailproductsSection {
 div#Quantity-Form-template--17959140524354__main button {
     outline: none !important;
 } 
+.holder:nth-child(1) a {
+    padding: 60px 0px 0px 0px;
+}
 
 
 /* responsiveness */
