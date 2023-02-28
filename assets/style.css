@@ -3220,7 +3220,7 @@ body.gradient.template-product-wireframe .detailproductsSection {
     margin-top: 0px;
 }
 .product-form__submit {
-    margin-bottom: 38px;
+    margin-bottom: 38px !important;
 }
 
 
