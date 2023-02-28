@@ -3122,7 +3122,11 @@ predictive-search label.field__label {
 button.button.btn-cart.btn_theme {
     border-radius: 118px 0px 0px 118px;
 }
+.products:nth-child(2) img {
+    width: 298px;
+}
 
+.products:nth-child(1) img {width: 180px;}
 
 
 /* responsiveness */
