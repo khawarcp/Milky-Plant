@@ -3156,6 +3156,9 @@ button.button.btn-cart.btn_theme {
 .footer__content-bottom {
     border: none;
 }
+.inner-helo {
+    padding: 0 40px!important;
+}
 
 
 /* responsiveness */
