@@ -3244,6 +3244,10 @@ div#shopify-section-template--17959140393282__main {
 .price.price-fortify {
     text-align: center;
 }
+.collection__title.title-wrapper.title-wrapper--no-top-margin.page-width h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
 
 
 /* responsiveness */
