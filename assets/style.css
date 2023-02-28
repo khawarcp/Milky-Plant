@@ -2537,7 +2537,9 @@ section.you-sec .inner-helo {
     height: 100%;
 }
 
-
+header.header.header--middle-center.header--mobile-center.container.header--has-menu {
+    position: fixed;
+}
     .usThem {
     padding-top: 70px;
     padding-bottom: 130px;
