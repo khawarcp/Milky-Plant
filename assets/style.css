@@ -3186,6 +3186,12 @@ input.shopify-challenge__button.btn {
 body.gradient.template-product-wireframe .product__media.media.media--transparent img {
     object-fit: contain;
 }
+.wirefram-template .add-button {
+    background: white;
+    color: #1c5597;
+    font-weight: 700;
+    padding-left: 20px;
+}
 
 
 
