@@ -3163,6 +3163,11 @@ button.button.btn-cart.btn_theme {
     text-decoration: none;
     border-bottom: 2px solid;
 }
+.header__menu-item {
+    margin: 1.2rem;
+    padding: 0 !important;
+}
+
 
 
 /* responsiveness */
