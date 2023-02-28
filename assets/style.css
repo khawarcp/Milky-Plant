@@ -3240,10 +3240,7 @@ body.gradient.template-product-wireframe .detailproductsSection {
     width: 100%;
     z-index: 999;
 }
-.product__info-container {
-    max-width: 100%;
-    margin: auto;
-}
+
   
 .banenrWrapper2:after {
     content: "";
