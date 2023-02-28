@@ -2527,6 +2527,14 @@ section.you-sec .inner-helo {
   .header__icons {
     justify-content: end;
 }
+  div#menu-drawer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    z-index: 999;
+}
     .usThem {
     padding-top: 70px;
     padding-bottom: 130px;
