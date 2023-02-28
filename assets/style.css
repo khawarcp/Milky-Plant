@@ -3262,7 +3262,7 @@ body.gradient.template-product .product__media.media.media--transparent img {
 }
 body.gradient.template-product .product__media.media.media--transparent img {
     object-fit: contain;
-    padding: 0 20px;
+    padding: 0 40px 0px 20px;
 }
   
   
