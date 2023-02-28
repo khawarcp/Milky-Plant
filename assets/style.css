@@ -2745,7 +2745,7 @@ header.header.header--middle-center.header--mobile-center.container.header--has-
     margin: auto;
 }
   .product__info-container {
-    max-width: 100%;
+    max-width: 100% !important;
 }
   
     
