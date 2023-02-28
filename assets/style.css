@@ -3201,6 +3201,11 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 body.gradient.template-product-wireframe .detailproductsSection {
     background: #EDD2FF !important;
 } 
+body.gradient.template-product-wireframe .detailproductsSection {
+    background: #EDD2FF!important;
+    margin-top: 0px;
+}
+
 
 /* responsiveness */
 /* ameer stylings ends */
