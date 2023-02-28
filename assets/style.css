@@ -3127,6 +3127,9 @@ button.button.btn-cart.btn_theme {
 }
 
 .products:nth-child(1) img {width: 180px;} 
+.sliderWrapper.slick-initialized.slick-slider {
+    margin-left: -10px;
+}
 
 
 /* responsiveness */
