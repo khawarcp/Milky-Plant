@@ -3167,6 +3167,11 @@ button.button.btn-cart.btn_theme {
     margin: 1.2rem;
     padding: 0 !important;
 }
+p.shopify-challenge__message {
+    margin-top: 200px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
 
 
