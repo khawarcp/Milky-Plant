@@ -2829,7 +2829,7 @@ ul#predictive-search-results-products-list li a img {
     display: block;
 }
 .form__message {
-    font-family: Basic,sans-serif;
+    border: 2px solid #1c5597;
     font-style: normal;
     font-weight: 700;
     font-size: 25px!important;
@@ -2839,7 +2839,6 @@ ul#predictive-search-results-products-list li a img {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    border: none !important;
 }
 p.copyright-footer {
     margin-top: 14px;
