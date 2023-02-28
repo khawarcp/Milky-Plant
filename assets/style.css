@@ -2840,6 +2840,7 @@ ul#predictive-search-results-products-list li a img {
     justify-content: center;
     margin-top: 30px;
     box-shadow: none !important;
+    outline: none !important;
 }
 p.copyright-footer {
     margin-top: 14px;
