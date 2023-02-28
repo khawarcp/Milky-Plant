@@ -3122,6 +3122,10 @@ predictive-search label.field__label {
 button.button.btn-cart.btn_theme {
     border-radius: 118px 0px 0px 118px;
 }
+.products img {
+    width: 100%;
+}
+
 .products:nth-child(2) img {
     width: 298px;
 }
