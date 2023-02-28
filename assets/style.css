@@ -3126,7 +3126,7 @@ button.button.btn-cart.btn_theme {
     width: 298px;
 }
 
-.products:nth-child(1) img {width: 180px;}
+.products:nth-child(1) img {width: 180px;} 
 
 
 /* responsiveness */
