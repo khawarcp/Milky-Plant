@@ -4925,6 +4925,9 @@ section.helo-sec {
   .inner-recp p {
     margin-bottom: 30px;
   }
+  .recp-width h3 {
+    min-height: auto;
+}
   
 
 
