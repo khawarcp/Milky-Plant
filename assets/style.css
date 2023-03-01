@@ -4160,6 +4160,13 @@ svg.modal__toggle-open.icon-search {
 }
 
 @media (max-width:600px) {
+  .leftBannerWrapper h2 {
+    max-width: 100%;
+    font-size: 45px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+  
     .colWrapper {
         width: 100%;
     }
