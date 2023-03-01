@@ -193,17 +193,15 @@ h2 {
 }
 
 .contentWrapperProduct p {
-    /* Milky Plant/Body Copy 1 */
-    font-family: 'Basic', sans-serif;
+    font-family: Basic,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    /* identical to box height, or 150% */
     letter-spacing: 1px;
-
-    /* Milky Plant/Blue */
-    color: #1C5597;
+    color: #1c5597;
+    max-width: 61%;
+    margin: auto;
 }
 
 .buttonBuyNow button {
@@ -2538,7 +2536,7 @@ section.you-sec .inner-helo {
   .quick-add.no-js-hidden button {
     width: 76px;
     height: 76px;
-} 
+}  
     .usThemContentItem p {
         font-size: 20px;    
     }
@@ -2554,7 +2552,7 @@ section.you-sec .inner-helo {
     z-index: 999;
     height: 100%;
 }
-
+   
 header.header.header--middle-center.header--mobile-center.container.header--has-menu {
     position: fixed;
 }
