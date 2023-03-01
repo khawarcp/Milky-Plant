@@ -4921,6 +4921,10 @@ section.helo-sec {
  .banenrWrapper1 {
     height: 1270px;
  }
+  .inner-recp p {
+    margin-bottom: 30px;
+  }
+  
 
 
 
