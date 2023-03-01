@@ -4132,6 +4132,9 @@ div#shopify-section-template--17959140720962__cart-items {
     gap: 25px;
     justify-content: center;
 }
+  .footer__content-bottom {
+    display: none;
+}
  header.container.header--has-menu {
     padding: 0px 22px 0px 20px;
 } 
