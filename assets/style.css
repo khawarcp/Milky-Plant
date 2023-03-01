@@ -4970,6 +4970,9 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
     font-weight: 700;
     font-size: 30px;
   }
+  .priceComparison {
+    padding-top: 50px;
+}
   
 
   
