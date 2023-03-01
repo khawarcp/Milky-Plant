@@ -4878,5 +4878,9 @@ section.you-sec {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.partner-width span br {
+    display: none;
+}
+  
   
 }  
