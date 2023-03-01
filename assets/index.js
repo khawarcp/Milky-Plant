@@ -80,6 +80,8 @@ $('.material-area .opener').click(function(e){
 })
 
 $(".material-area .opener").click(function () {
-  $(".holder.active").not(this).closest('.holder').removeClass("active");
-  $(this).closest('.holder').toggleClass("active");
+        $(".material-area .holder").removeClass("active");
+        $(this).closest('.holder').addClass("active");
+    
 });
+    $("..material-area .holder:first").addClass("active");
