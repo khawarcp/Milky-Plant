@@ -3292,8 +3292,34 @@ body.gradient.template-cart .card__content {
     background: linear-gradient(180deg, #F9C8C7 0%, #FFF9F5 0%, #F6E9E2 25.17%);
     position: absolute;
     content: '';
+} 
+div#insta-feed {
+    max-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+div#insta-feed a {
+    display: block;
+    width: 26%;
+    max-width: 40%;
+    margin-right: 7px;
+}
+
+.instafeed-container {
+    width: 100% !important;
+    height: 300px !important;
+    margin: 7px;
+}
+
+.instafeed-container img {
+}
+
+.instafeed-container img {
+    border-radius: 20px !important;
+}
 
 
 /* responsiveness */
