@@ -3332,7 +3332,7 @@ body.gradient.template-product-wireframe .productsSection:before {
 body.gradient.template-product-wireframe .productsSection:after {
     opacity: 0;
 }
-.productsSection.detailproductsSection .container::after {
+body.gradient.template-product-wireframe .productsSection.detailproductsSection .container::after {
     position: absolute;
     content: "";
     bottom: 160px;
