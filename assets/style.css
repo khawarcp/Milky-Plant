@@ -3269,7 +3269,7 @@ body.gradient.template-cart .card__content {
     z-index: 99;
 }
 
-.banenrWrapper::after {
+.banenrWrapper::before {
     position: relative;
     position: absolute;
     content: "";
