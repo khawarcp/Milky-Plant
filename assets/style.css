@@ -4960,7 +4960,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 .howToUse {
     padding-bottom: 120px;
 }  
-
+.selfCleaning {
+    padding-top: 0px;
+}
+  
 
   
 }  
