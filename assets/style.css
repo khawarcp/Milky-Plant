@@ -4992,6 +4992,9 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
  .product-details h1 {
     font-size: 30px;
  }
-
+.h-banner {
+    padding: 155px 0px;
+}
+  
   
 }  
