@@ -4874,6 +4874,9 @@ section.you-sec {
   .partner-flex {
     margin-top: 30px;
 }
-
+.partner-width span {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
   
 }  
