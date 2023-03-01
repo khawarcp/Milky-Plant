@@ -4957,7 +4957,9 @@ body.gradient.template-product-wireframe .products:nth-child(2) img {
 body.gradient.template-product-wireframe .products:nth-child(3) img {
     max-width: 220px !important;
 }
-  
+.howToUse {
+    padding-bottom: 120px;
+}  
 
 
   
