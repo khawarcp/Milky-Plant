@@ -3281,7 +3281,19 @@ body.gradient.template-cart .card__content {
     width: 147.15px;
     height: 168.95px;
 }
-  
+.x-area {
+    position: relative;
+}
+
+.x-area:after {
+    width: 100%;
+    height: 82%;
+    bottom: 0;
+    background: red;
+    position: absolute;
+    content: '';
+}
+
 
 
 /* responsiveness */
@@ -4027,6 +4039,7 @@ div#shopify-section-template--17959140720962__cart-items {
   .productsSection:before {
     display:none;
 }
+  
     .ingredients .holder .images li {
         width: calc(50% - 15px);
     }
