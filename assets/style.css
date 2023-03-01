@@ -4915,7 +4915,9 @@ section.helo-sec {
 .recp-width:nth-child(2) img {
     transform: rotate(0deg);
 }
-  
+  .recp-width h3 {
+    margin-top: 10px;
+}
   
   
 }  
