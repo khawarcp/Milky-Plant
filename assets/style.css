@@ -2103,7 +2103,7 @@ section.you-sec .inner-helo {
     border-top: 2px solid #1C5597;
 }
 
-.material-area .accordion-opener {
+.material-area .opener {
     display: block;
     font-size: 52px;
     line-height: 45px;
@@ -2113,7 +2113,7 @@ section.you-sec .inner-helo {
     position: relative;
 }
 
-.material-area .accordion-opener:after {
+.material-area .opener:after {
     width:30px;
     height:31px;
     position: absolute;
@@ -2646,7 +2646,7 @@ header.header.header--middle-center.header--mobile-center.container.header--has-
     .images li img {
         border-radius: 30px;
     }
-    .material-area .accordion-opener {
+    .material-area .opener {
         font-size: 40px;
         line-height: 42px;
         padding: 30px 40px 40px 10px;
@@ -3976,7 +3976,7 @@ div#shopify-section-template--17959140720962__cart-items {
         font-size: 26px;
         line-height: 44px;
     }
-    .material-area .accordion-opener {
+    .material-area .opener {
         font-size: 26px;
         line-height: 32px;
         padding: 30px 40px 30px 10px;
