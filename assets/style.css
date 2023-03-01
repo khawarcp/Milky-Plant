@@ -4951,6 +4951,12 @@ section.main-blog.section-template--17959140163906__custom-main-blog-padding.rec
  .slector {
     padding: 40px 0 30px;
 }
+body.gradient.template-product-wireframe .products:nth-child(2) img {
+    max-width: 221px !important;
+}
+body.gradient.template-product-wireframe .products:nth-child(3) img {
+    max-width: 220px !important;
+}
   
 
 
