@@ -76,5 +76,5 @@ tabs.forEach(tab => {
 $('.material-area .opener').click(function(e){
   e.preventDefault();
   $('.material-area .holder').removeClass('active');
-  $(this).closest('.holder').find('.images').slideToggle().css('display', 'flex');
+  // $(this).closest('.holder').find('.images').slideToggle().css('display', 'flex');
 })
