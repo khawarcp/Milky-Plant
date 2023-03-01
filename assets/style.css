@@ -4173,6 +4173,24 @@ svg.modal__toggle-open.icon-search {
     font-size: 28px;
     line-height: 38px;
 }
+  .recipie h2 {
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+  .asseenOn h2 {
+    font-size: 42px;
+}
+  .impact h2 {
+    font-size: 42px;
+  }
+  .latering-text img {
+    width: 258px;
+    margin-top: 30px;
+}
+  .contentWrapepr h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
     .colWrapper {
         width: 100%;
     }
