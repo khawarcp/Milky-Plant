@@ -4989,5 +4989,9 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
   .custom-shape-divider-bottom-1675884159 svg {
     height: 38px;
 }
+ .product-details h1 {
+    font-size: 30px;
+ }
+
   
 }  
