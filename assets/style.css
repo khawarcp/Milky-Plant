@@ -3541,6 +3541,7 @@ header {
     z-index: 1;
 }
 .banenrWrapper {
+    height: 1400px;
     min-height: 700px;
     display: flex;
     align-items: center;
