@@ -4218,6 +4218,9 @@ svg.modal__toggle-open.icon-search {
   body.gradient.template-product-wireframe .productsSection.detailproductsSection .container:before {
     opacity: 0;
   }
+  body.gradient.template-product-wireframe .products:nth-child(2) img {
+    width: 100%;
+}
     .colWrapper {
         width: 100%;
     }
