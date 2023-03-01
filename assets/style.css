@@ -5001,6 +5001,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
   .product__info-wrapper.grid__item.product-details {
     padding-left: 0px!important;
 }
+.counter button {
+    width: 46px;
+    height: 46px;
+}
   
 
   
