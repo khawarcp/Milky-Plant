@@ -4995,6 +4995,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 .h-banner {
     padding: 155px 0px;
 }
+  .product-details h1 {
+    margin: 0 0 0px;
+  }
+
   
   
 }  
