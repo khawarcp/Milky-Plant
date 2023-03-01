@@ -4982,6 +4982,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
   .usThem {
     padding-top: 30px;
   }
+  .usThemContentItem img {
+    max-width: 150px;
+    max-height: 280px;
+  }
   
 
   
