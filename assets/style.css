@@ -3382,7 +3382,7 @@ div#\32 -insta-feed {
     background-color: #000;
 }
 .instafeed-lightbox {
-    z-index: 999999;
+    z-index: 99999999 !important;
 }
 
 /* responsiveness */
