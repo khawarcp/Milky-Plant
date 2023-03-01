@@ -4124,7 +4124,8 @@ div#shopify-section-template--17959140720962__cart-items {
 }
 
 .columnRIghtFooter.thirdColumn>a {
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
  header.container.header--has-menu {
     padding: 0px 22px 0px 20px;
