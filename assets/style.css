@@ -2528,6 +2528,10 @@ section.you-sec .inner-helo {
         border-radius: 30px;
         padding: 20px;
     }
+  main#MainContent {
+    position: relative;
+    z-index: 1;
+}
     .usThemContentItem p {
         font-size: 20px;    
     }
