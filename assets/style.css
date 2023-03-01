@@ -2540,6 +2540,9 @@ section.you-sec .inner-helo {
     .usThemContentItem p {
         font-size: 20px;    
     }
+  .list-menu {
+    flex-direction: column;
+  }
   .header__icons {
     justify-content: end;
 }
