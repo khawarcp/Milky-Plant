@@ -1531,7 +1531,10 @@ button.addToCart {
     display: block;
     padding: 13px 0 40px;
 }
-
+.quick-add.no-js-hidden button {
+    width: 76px;
+    height: 86.97px;
+}
 .recp-width a {
     padding: 23px 57px;
     background: #1C5597;
@@ -2535,7 +2538,7 @@ section.you-sec .inner-helo {
   .quick-add.no-js-hidden button {
     width: 76px;
     height: 76px;
-}
+} 
     .usThemContentItem p {
         font-size: 20px;    
     }
@@ -2824,10 +2827,7 @@ ul#predictive-search-results-products-list li a img {
     right: 0;
     margin-top: -10px;
 }
-.quick-add.no-js-hidden button {
-    width: 76px;
-    height: 86.97px;
-}
+
 .productsSection {
     background-color: transparent;
 }
