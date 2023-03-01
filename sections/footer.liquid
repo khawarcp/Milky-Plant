@@ -387,13 +387,11 @@
 <script>
 $('.accordion-opener').click(function(e){
   e.preventDefault();
-    // $('.holder').removeClass('active')
-    // $(this).closest('.holder').addClass('active');
   if($(this).closest('.holder').hasClass('active')){
     $(this).closest('.holder').removeClass('active')
   }
   else{
-  $(this).closest('.holder').removeClass('active')
+  $(this).closest('.holder').addClass('active')
   }
 })
 </script>
