@@ -3377,7 +3377,10 @@ body.gradient.template-product-wireframe .productsSection.detailproductsSection 
 .card-prices span {font-family: 'Basic Sans';font-style: normal;font-weight: 700;font-size: 18px;line-height: 27px;
 /* identical to box height, or 150% */text-align: center;letter-spacing: 1px;margin: 0px 5px;}
 
-
+div#\32 -insta-feed {
+    z-index: 999999;
+    background-color: #000;
+}
 
 /* responsiveness */
 /* ameer stylings ends */
