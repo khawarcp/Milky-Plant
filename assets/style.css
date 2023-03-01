@@ -3392,7 +3392,7 @@ body.gradient.template-product-wireframe .productsSection.detailproductsSection 
 }
   .cart-count-bubble {
     bottom: 30px !important;
-    left: 50px !important;
+    left: 20px !important;
 }
   div#insta-feed a {
     display: block;
