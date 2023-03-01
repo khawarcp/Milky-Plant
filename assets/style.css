@@ -4919,8 +4919,9 @@ section.helo-sec {
     margin-top: 10px;
 }
  .banenrWrapper1 {
-    height: 1270px;
- }
+    background-size: auto;
+    height: auto;
+}
   .inner-recp p {
     margin-bottom: 30px;
   }
