@@ -4015,6 +4015,9 @@ div#shopify-section-template--17959140720962__cart-items {
         line-height: 32px;
         padding: 30px 40px 30px 10px;
     }
+  .banenrWrapper {
+    height: 1100px;
+  }
     .ingredients .holder .images li {
         width: calc(50% - 15px);
     }
