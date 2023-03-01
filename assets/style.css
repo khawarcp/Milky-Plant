@@ -4899,7 +4899,11 @@ section.you-sec {
   .inner-helo {
     max-width: 100%;
   }
-
+section.helo-sec {
+    background: linear-gradient(90deg,#f6cbd8 12.64%,#EDD2FF 61.46%,#e0bfee 90.52%);
+    padding-bottom: 40px;
+}
+  
 
   
   
