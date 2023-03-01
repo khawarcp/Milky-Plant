@@ -3698,6 +3698,10 @@ header {
 /*   .parWrapper span {
     display: none;
 } */
+  span.clr-gr {
+    color: #006650!important;
+    display: contents;
+}
 .recipie {
     padding: 30px 0px 100px;
     background-size: 100% 100%;
