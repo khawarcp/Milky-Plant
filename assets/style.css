@@ -4881,6 +4881,11 @@ section.you-sec {
 .partner-width span br {
     display: none;
 }
+.partner-width img {
+    width: 100%;
+    max-width: 40%;
+}
+  
   
   
 }  
