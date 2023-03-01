@@ -4127,6 +4127,9 @@ div#shopify-section-template--17959140720962__cart-items {
 svg.modal__toggle-open.icon-search {
     width: 30px;
 }
+.header__icons .menu-icon {
+    max-width: 30%;
+}
   
 }
 
