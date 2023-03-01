@@ -3679,7 +3679,7 @@ header {
 }
 .imageWrapepr img {
     width: 100%;
-    max-width: 30%;
+    max-width: 100%;
 }
 .recipie {
     padding: 30px 0px 100px;
