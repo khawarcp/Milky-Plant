@@ -4865,6 +4865,8 @@ footer {
     width: 100% !important;
     max-width: 100% !important;
 }
-
+section.you-sec {
+    padding: 30px 0;
+}
   
 }  
