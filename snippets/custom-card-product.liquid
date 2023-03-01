@@ -66,8 +66,8 @@
           </div>
         <p> {{ card_product.metafields.descriptors.subtitle }} </p>
         <div class="card-prices">
-            <span>{{ product.price | money }}</span>
-            <span>{{ product.compare_at_price | money }}</span>
+            <span>{{ card_product.price | money }}</span>
+            <span>{{ card_product.compare_at_price_min | money  }}</span>
         </div>
         <div class="buttonBuyNow">
 
