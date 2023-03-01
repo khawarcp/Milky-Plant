@@ -3541,6 +3541,10 @@ header.header.header--middle-center.header--mobile-center.container.header--has-
     padding: 20px;
     max-width: 100%;
 }
+  .paraWrapper p:first-child {
+    font-size: 16px;
+    line-height: 25px;
+  }
     .slector select {
         font-size: 22px;
         padding: 0 20px;
