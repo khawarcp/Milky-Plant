@@ -4018,6 +4018,15 @@ div#shopify-section-template--17959140720962__cart-items {
   .banenrWrapper {
     height: 1100px;
   }
+  .productsSection:after {
+    top: -110px;
+    right: 33px;
+    width: 80px;
+    height: 80px;
+}
+  .productsSection:before {
+    display:none;
+}
     .ingredients .holder .images li {
         width: calc(50% - 15px);
     }
