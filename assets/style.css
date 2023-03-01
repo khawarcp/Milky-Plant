@@ -3351,6 +3351,14 @@ div#insta-feed a {
     width: 100%;
     z-index: 999;
 }
+  div#insta-feed a {
+    display: block;
+    width: 100%;
+    max-width: 80%;
+}
+  div#insta-feed {
+    max-width: 100%;
+  }
 body.gradient.template-product .product__media.media.media--transparent img {
     object-fit: contain;
     padding: 0 40px 0px 20px;
