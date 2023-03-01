@@ -4202,6 +4202,10 @@ svg.modal__toggle-open.icon-search {
     padding-inline: 15px;
     margin-left: 15px;
 }
+  .contentWrapperProduct p {
+    max-width: 85%;
+    margin: auto;
+}
     .colWrapper {
         width: 100%;
     }
