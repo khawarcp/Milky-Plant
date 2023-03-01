@@ -388,11 +388,9 @@
 $('.tabbingContainer li:first-child .desc, .tabbingContainer li:first-child').addClass('active').css('display','block');
 
   $('.ingredients .holder:first-child ul').css('display', 'flex');
-  const el = $('.ingredients .opener')
-  el.addEventListener('click',function(e)
-{
-  console.log("clicked me.")  
-}, false);
+$('.ingredients .opener').click(function(){
+console.log("clicked")
+})
   
 </script>
 </footer>
