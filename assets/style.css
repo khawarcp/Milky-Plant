@@ -3297,7 +3297,9 @@ body.gradient.template-cart .card__content {
     margin-bottom: 20px;
 }
 
-
+.productsSection:after {
+    top: -90px;
+}
   
 
 }
