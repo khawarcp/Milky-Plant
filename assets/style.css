@@ -3390,6 +3390,10 @@ body.gradient.template-product-wireframe .productsSection.detailproductsSection 
     width: 100%;
     z-index: 999;
 }
+  .cart-count-bubble {
+    bottom: 30px !important;
+    left: 50px !important;
+}
   div#insta-feed a {
     display: block;
     width: 100%;
