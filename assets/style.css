@@ -4966,6 +4966,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 .productsSection {
     padding: 40px 0px 0px 0px;
 }
+  .tabbingContainer h4 {
+    font-weight: 700;
+    font-size: 30px;
+  }
   
 
   
