@@ -3356,6 +3356,9 @@ div#insta-feed a {
     width: 100%;
     max-width: 80%;
 }
+  .product-media-container {
+    border-radius: 60px;
+}
   main#MainContent {
     position: relative;
     z-index: 1;
