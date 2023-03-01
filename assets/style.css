@@ -4194,7 +4194,10 @@ svg.modal__toggle-open.icon-search {
   .joinYourCommunity h2 {
     font-size: 42px;
   }
-  
+  .sustainlibilty p {
+    font-size: 16px;
+    padding: 0 0px;
+}
     .colWrapper {
         width: 100%;
     }
