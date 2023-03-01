@@ -3381,6 +3381,9 @@ div#\32 -insta-feed {
     z-index: 999999;
     background-color: #000;
 }
+.instafeed-lightbox {
+    z-index: 999999;
+}
 
 /* responsiveness */
 /* ameer stylings ends */
