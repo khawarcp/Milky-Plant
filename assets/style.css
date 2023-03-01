@@ -4896,6 +4896,9 @@ section.you-sec {
     line-height: 27px;
     text-align: start;
 }
+  .inner-helo {
+    max-width: 100%;
+  }
   
   
 
