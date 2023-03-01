@@ -2525,7 +2525,10 @@ section.you-sec .inner-helo {
 }
 
 @media (max-width:991px){
-    .usThemContentItem {
+ .menu-drawer__menu-item {
+    font-size: 2.8rem;
+}
+  .usThemContentItem {
         border-radius: 30px;
         padding: 20px;
     }
