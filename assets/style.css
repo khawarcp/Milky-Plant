@@ -4169,6 +4169,10 @@ svg.modal__toggle-open.icon-search {
   .productsSection {
     padding: 50px 0;
 }
+  .contentWrapperProduct h4 {
+    font-size: 28px;
+    line-height: 38px;
+}
     .colWrapper {
         width: 100%;
     }
