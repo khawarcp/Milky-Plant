@@ -4928,7 +4928,9 @@ section.helo-sec {
   .recp-width h3 {
     min-height: auto;
 }
-  
+  .resc-width p {
+    margin-bottom: 10px;
+}
 
 
 
