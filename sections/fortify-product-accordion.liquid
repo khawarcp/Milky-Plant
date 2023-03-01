@@ -1,7 +1,7 @@
 <div class="material-area">
   <div class="ingredients">
     <div class="holder active">
-      <a href="#" class="opener">Ingredients:</a>
+      <a href="#" class="accordion-opener">Ingredients:</a>
       <ul class="images">
         {% for ingredient in product.metafields.custom.ingredients.value %}
           <li>
@@ -14,7 +14,7 @@
       </ul>
     </div>
     <div class="holder">
-      <a href="#" class="opener">How to use:</a>
+      <a href="#" class="accordion-opener">How to use:</a>
       <ul class="images">
 
         {% for usage in product.metafields.custom.fortify_usage.value %}
