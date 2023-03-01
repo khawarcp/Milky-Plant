@@ -3829,6 +3829,9 @@ footer {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    gap: 0;
+    padding-right: 0;
+    margin-bottom:50px;
 }
 .columnRIghtFooter.thirdColumn {
     max-width: 270px;
