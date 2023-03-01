@@ -3254,17 +3254,17 @@ body.gradient.template-cart .card__content {
     font-size: 60px !important;
     margin-bottom: 20px;
 }
-.productsSection::after {
+.productsSection:after {
     position: absolute;
     content: "";
-    background-image: url('https://cdn.shopify.com/s/files/1/0723/4129/1330/files/Almond.png?v=1677632076');
+    background-image: url(https://cdn.shopify.com/s/files/1/0723/4129/1330/files/Almond.png?v=1677632076);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 118.44px;
     height: 128.64px;
     right: 133px;
-    bottom: 80px;
+    top: -60px;
     z-index: 99;
 }
 
