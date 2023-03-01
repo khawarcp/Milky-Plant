@@ -3398,6 +3398,11 @@ body.gradient.template-product-wireframe .productsSection.detailproductsSection 
   .product-media-container {
     border-radius: 60px;
 }
+  .x-area:after {
+    width: 100%;
+    height: 94%;
+}
+  
   main#MainContent {
     position: relative;
     z-index: 1;
