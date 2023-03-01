@@ -4166,7 +4166,9 @@ svg.modal__toggle-open.icon-search {
     line-height: 22px;
     margin-top: 30px;
 }
-  
+  .productsSection {
+    padding: 50px 0;
+}
     .colWrapper {
         width: 100%;
     }
