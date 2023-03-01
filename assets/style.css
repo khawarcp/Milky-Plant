@@ -4124,7 +4124,10 @@ div#shopify-section-template--17959140720962__cart-items {
  header.container.header--has-menu {
     padding: 0px 32px 0px 20px;
 } 
-
+svg.modal__toggle-open.icon-search {
+    width: 30px;
+}
+  
 }
 
 @media (max-width:600px) {
