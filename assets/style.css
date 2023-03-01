@@ -4832,4 +4832,33 @@ div#insta-feed a * {
 footer {
     padding: 50px 0px 30px;
 }
+.instafeed-lightbox:target {
+    z-index: 9999999;
+    background: red;
+    max-height: 300px;
+    margin: auto;
+    inset: 0;
+    padding: 40px;
+    display: none !important;
+}
+
+.instafeed-lightbox .lightbox-instagram {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.asseenOn h2 {
+    margin-bottom: 30px !important;
+}
+
+.products:nth-child(3) {}
+
+.products:nth-child(3) .imageWrapepr img {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+  
 }  
