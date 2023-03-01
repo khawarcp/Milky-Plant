@@ -3487,13 +3487,13 @@ header.header.header--middle-center.header--mobile-center.container.header--has-
     .product-details {
         font-size: 22px;
     }
-    .followUs {
-        width: 201px;
-        height: 183px;
-        border-radius: 35px;
-        padding: 20px;
-        padding-top: 20px;
-    }
+   .followUs {
+    width: 100%;
+    height: 183px;
+    border-radius: 35px;
+    padding: 20px;
+    max-width: 100%;
+}
     .slector select {
         font-size: 22px;
         padding: 0 20px;
@@ -3863,6 +3863,7 @@ footer {
     margin: 20px 0;
     gap: 0 25px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .columnRIghtFooter.thirdColumn p {
     text-align: left;
