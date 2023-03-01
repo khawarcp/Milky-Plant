@@ -2543,6 +2543,10 @@ section.you-sec .inner-helo {
   .list-menu {
     flex-direction: column;
   }
+  div#shopify-section-template--17959140327746__6c616b1e-2cf8-4b55-8118-cccdec42aede {
+    padding-bottom: 100px;
+    background-color: #f2d1ef;
+}
   .header__icons {
     justify-content: end;
 }
