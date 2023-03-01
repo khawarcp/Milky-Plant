@@ -4315,3 +4315,62 @@ html,body {
 
 
 
+
+
+
+
+
+
+@media only screen and (min-width:1040px) {
+  .gradientColor {
+    position: relative;
+    /* z-index: 4; */
+    /* padding-bottom: 150px !important; */
+}
+
+.gradientColor::after {
+    /* content: ""; */
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url(https://cdn.shopify.com/s/files/1/0723/4129/1330/files/Frame_51_1.png?v=1677642528);
+    background-size: 100%;
+    position: absolute;
+    top: -30px;
+    z-index: 6;
+}
+
+div#shopify-section-template--18036916420930__pro-wireframe-comparision:after {
+    content: "";
+    display: block;
+    width: 110%;
+    height: 200px;
+    background: url(https://cdn.shopify.com/s/files/1/0723/4129/1330/files/Frame_51_1.png?v=1677642528);
+    background-size: 100%;
+    position: absolute;
+    top: -170px;
+    z-index: 3;
+    left: -20px;
+}
+
+div#shopify-section-template--18036916420930__pro-wireframe-comparision {
+    position: relative;
+    z-index: 2;
+    margin-top: -20px;
+    overflow: visible;
+}
+
+div#shopify-section-template--18036916420930__pro-wireframe-similar {
+    position: relative;
+    z-index: 1;
+}
+
+.driedPulp {
+    position: relative;
+    z-index: 6;
+}
+
+.productsSection.detailproductsSection .container {
+    margin-bottom: 170px;
+}
+}
