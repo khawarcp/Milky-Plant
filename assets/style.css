@@ -4562,3 +4562,274 @@ div#shopify-section-template--18036916420930__pro-wireframe-similar {
     margin-bottom: 170px;
 }
 }
+
+
+@media only screen and (max-widthL 767px) {
+* {
+    letter-spacing: normal !important;
+}
+
+.recipie>a {
+    padding: 12px 30px;
+    min-height: auto !important;
+    padding: 9px 61px !important;
+    font-size: 16px !important;
+    height: auto;
+    min-width: auto;
+}
+
+p {
+    line-height: normal !important;
+    font-size: 16px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+    line-height: normal !important;
+}
+
+.contentWrapepr a {
+    font-size: 16px !important;
+    padding: 12px 30px !important;
+    min-height: auto;
+    min-height: auto !important;
+    padding: 9px 61px !important;
+    font-size: 16px !important;
+    height: auto;
+    min-width: auto;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+.leftBannerWrapper h2 {
+    margin: 15px  0px 10px;
+}
+
+.leftBannerWrapper a {min-height: auto !important;padding: 9px 61px !important;font-size: 16px !important;height: auto;min-width: auto;}
+
+.productWrapperBanner img {
+    max-width: 250px;
+    margin: auto;
+    display: block;
+}
+
+.banenrWrapper {
+    height: auto !important;
+}
+
+.products img {
+    max-width: 110px !important;
+    height: auto !important;
+    min-height: auto !important;
+    width: auto !important;
+}
+
+.contentWrapperProduct h4 {
+    line-height: normal !important;
+}
+
+.contentWrapperProduct p {
+    min-height: 41px;
+}
+
+.header__icons svg {
+    width: 24px !important;
+    height: auto !important;
+}
+
+svg.icon.icon-hamburger {
+    height: 20px !important;
+    / width: 80px !important; /
+}
+
+.header__heading-logo {
+    max-width: 150px !important;
+    width: auto;
+    margin-left: -22px;
+}
+
+.header__icons {
+    position: absolute;
+    right: 0;
+}
+
+.slideWrapepr img {
+    width: auto;
+    max-width: 170px;
+    margin: 0;
+}
+
+.asseenOn h2, .impact h2 {
+    margin-bottom: 0px !important;
+}
+
+img.motion-reduce.img-fluid.mx-auto.sustain-img-block {
+    margin-bottom: 35px;
+}
+
+.rabbitContainer {
+    display: flex;
+    flex-direction: revert;
+    gap: 0px;
+}
+
+.rabbitContainer img {
+    max-width: 70px;
+}
+
+.sustainlibilty .rabbitContainer p {
+    max-width: 120px !important;
+    / background: red; /
+    word-break: break-all;
+    margin-bottom: 0px;
+}
+
+.sustainlibilty p {
+    margin-bottom: 35px;
+}
+
+.latering-text img {
+    margin: 0;
+}
+
+.sustainlibilty {
+    padding: 50px 20px;
+}
+
+.story {
+    padding: 50px 0px;
+}
+
+.contentWrapepr h2 {
+    margin: 15px 0px 15px;
+}
+
+div#insta-feed {
+    flex-direction: revert;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+div#insta-feed a {
+    width: 100%;
+    min-width: 250px;
+    height: auto;
+    min-height: auto;
+    max-height: 240px !important;
+    overflow: hidden;
+    min-height: 240px;
+    border-radius: 20px !important;
+}
+
+div#insta-feed a * {
+    height: 100% !important;
+    padding: 0px !important;
+    height: 240px !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+}
+
+.joinYourCommunity .container {
+    padding: 0px 0px;
+    padding-left: 20px;
+}
+
+.joinYourCommunity {
+    padding: 50px 0px;
+}
+
+.subscribeWrapper {
+    flex-direction: column;
+}
+
+.subscribeWrapper input {
+    border-radius: 0 !important;
+    height: 45px !important;
+    min-height: 45px;
+    padding: 0 20px;
+    font-size: 14px;
+    border-radius: 10px !important;
+}
+
+.subscribeWrapper button {
+    width: 100%;
+    margin: 10px 0px 0px;
+    border-radius: 10px;
+    position: relative !important;
+    left: auto;
+    right: auto !important;
+}
+
+.mainFooterWrapper {}
+
+.mainFooterWrapper {
+    margin: 80px 0px 0px;
+}
+
+.followUs ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.followUs {
+    min-height: auto;
+    height: auto;
+    margin: 0;
+}
+
+.followUs h4 {
+    margin: 0px 0px 15px;
+}
+
+.followUs:after {bottom: auto;top: -23px;left: 40px;right: auto;transform: rotate(185deg);}
+
+.columnRIghtFooter:not(:last-child) {}
+
+.columnRIghtFooter {
+    width: 50%;
+}
+
+.columnRIghtFooter a {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.rightFooter h3 {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.columnRIghtFooter.thirdColumn a {
+    min-height: auto !important;
+    padding: 9px 61px !important;
+    font-size: 16px !important;
+    height: auto;
+    min-width: auto;
+}
+
+.columnRIghtFooter.thirdColumn p {
+    font-size: 10px !important;
+    font-weight: 100 !important;
+    line-height: normal;
+}
+
+.columnRIghtFooter.thirdColumn p a {
+    display: none;
+}
+
+.rightFooter {
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 50px 0px 30px;
+}
+}
