@@ -4854,7 +4854,6 @@ footer {
 }
 .instafeed-lightbox:target {
     z-index: 9999999;
-    background: red;
     max-height: 300px;
     margin: auto;
     inset: 0;
