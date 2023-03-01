@@ -65,6 +65,10 @@
             {%- endif -%}            
           </div>
         <p> {{ card_product.metafields.descriptors.subtitle }} </p>
+        <div class="card-prices">
+            <span>{{ product.price | money }}</span>
+            <span>{{ product.compare_at_price_min | money }}</span>
+        </div>
         <div class="buttonBuyNow">
 
         <div class="button-wrap">
