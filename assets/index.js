@@ -78,3 +78,9 @@ $('.material-area .opener').click(function(e){
   // $('.material-area .holder').removeClass('active');
   // $(this).closest('.holder').find('.images').slideToggle().css('display', 'flex');
 })
+
+$(".material-area .opener").click(function () {
+  $(".holder.active").not(this).closest('.holder').removeClass("active").find('ul').slideUp(300);
+  // $(this).closest('.holder').toggleClass("active").next().slideToggle(300);
+  $(this).closest('.holder').toggleClass("active").find('ul').slideToggle(300);
+});
