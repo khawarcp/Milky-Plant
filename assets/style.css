@@ -4224,6 +4224,9 @@ svg.modal__toggle-open.icon-search {
   body.gradient.template-product-wireframe .detailproductsSection {
     margin-top: 20px;
 }
+  body.gradient.template-product-wireframe .products:nth-child(2) img {
+    width: 90%;
+}
     .colWrapper {
         width: 100%;
     }
