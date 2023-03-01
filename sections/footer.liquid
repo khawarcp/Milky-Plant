@@ -384,18 +384,6 @@
       </div>
     </div>
   </div>
-<script>
-$('.accordion-opener').click(function(e){
-  e.preventDefault();
-  $('.holder:first-child').removeClass('active')
-  if($(this).closest('.holder').hasClass('active')){
-    $(this).closest('.holder').removeClass('active')
-  }
-  else{
-  $(this).closest('.holder').addClass('active')
-  }
-})
-</script>
 </footer>
 
 {% javascript %}
