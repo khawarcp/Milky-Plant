@@ -2532,6 +2532,10 @@ section.you-sec .inner-helo {
     position: relative;
     z-index: 1;
 }
+  .quick-add.no-js-hidden button {
+    width: 76px;
+    height: 76px;
+}
     .usThemContentItem p {
         font-size: 20px;    
     }
