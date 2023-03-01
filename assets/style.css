@@ -3914,6 +3914,7 @@ footer {
 .columnRIghtFooter {
     width: 38%;
     min-width: 114px;
+    margin:auto;
 }
 .columnRIghtFooter.thirdColumn {
     width: 100%;
