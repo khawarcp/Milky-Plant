@@ -353,11 +353,14 @@ span.plusSignBuyNow {
 }
 
 .productsSection {
-    background: url('product-bg.png');
+    background: url('https://cdn.shopify.com/s/files/1/0723/4129/1330/files/new-shape.png?v=1677630991');
     padding: 100px 0px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0;
+  margin-top: -130px;
+    z-index: 1000;
+    position: relative;
   
 }
 
