@@ -3356,6 +3356,10 @@ div#insta-feed a {
     width: 100%;
     max-width: 80%;
 }
+  main#MainContent {
+    position: relative;
+    z-index: 1;
+}
   div#insta-feed {
     max-width: 100%;
   }
