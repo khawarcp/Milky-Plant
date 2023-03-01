@@ -4206,6 +4206,9 @@ svg.modal__toggle-open.icon-search {
     max-width: 85%;
     margin: auto;
 }
+  .whiteButton {
+    width: 211px!important;
+}
     .colWrapper {
         width: 100%;
     }
