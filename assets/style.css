@@ -4564,7 +4564,7 @@ div#shopify-section-template--18036916420930__pro-wireframe-similar {
 }
 
 
-@media only screen and (max-widthL 700px) {
+@media only screen and (max-width: 700px) {
 * {
     letter-spacing: normal !important;
 }
