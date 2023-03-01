@@ -4239,6 +4239,9 @@ svg.modal__toggle-open.icon-search {
 body.gradient.template-product-wireframe .products {
     min-height: 414px!important;
 }
+  .buttonBuyNow button {
+    width: 105%;
+  }
 
     .colWrapper {
         width: 100%;
