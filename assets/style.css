@@ -3369,6 +3369,14 @@ body.gradient.template-product-wireframe .productsSection.detailproductsSection 
     background-size: contain;
 }
 
+.card-prices span:nth-child(1) {
+    color: rgba(242, 73, 56, 1);
+    text-decoration: line-through;
+}
+
+.card-prices span {font-family: 'Basic Sans';font-style: normal;font-weight: 700;font-size: 18px;line-height: 27px;
+/* identical to box height, or 150% */text-align: center;letter-spacing: 1px;margin: 0px 5px;}
+
 
 
 /* responsiveness */
