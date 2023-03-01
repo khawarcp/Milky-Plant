@@ -3847,6 +3847,7 @@ footer {
     width: 100%;
     max-width: 100%;
     text-align: center;
+      margin-top: 20px;
 }
 .columnRIghtFooter.thirdColumn > a {
     padding: 23px 30px;
@@ -3869,7 +3870,7 @@ footer {
     justify-content: center;
 }
 .columnRIghtFooter.thirdColumn p {
-    text-align: left;
+    text-align: center;
 }
 .productWrapper {
     padding-top: 120px;
