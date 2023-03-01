@@ -4792,9 +4792,9 @@ div#insta-feed a * {
 
 .columnRIghtFooter:not(:last-child) {}
 
-.columnRIghtFooter {
+/* .columnRIghtFooter {
     width: 50%;
-}
+} */
 
 .columnRIghtFooter a {
     font-size: 14px;
