@@ -3342,6 +3342,18 @@ body.gradient.template-product-wireframe .productsSection.detailproductsSection 
     width: 94.72px;
     height: 97.35px;
 }
+body.gradient.template-product-wireframe .productsSection.detailproductsSection .container::before {
+    position: absolute;
+    content: "";
+    bottom: 160px;
+    left: 6%;
+    z-index: 99999;
+    background-image: url(https://cdn.shopify.com/s/files/1/0723/4129/1330/files/icons__2.png?v=1677683510);
+    width: 94.72px;
+    height: 97.35px;
+}
+
+
 
 /* responsiveness */
 /* ameer stylings ends */
