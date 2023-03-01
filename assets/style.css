@@ -4181,6 +4181,9 @@ svg.modal__toggle-open.icon-search {
     width: 80px;
     height: 80px;
 }
+  .x-area:after {
+    background: linear-gradient(180deg,#F9C8C7 0%,#f6e9e2 0%,#F6E9E2 25.17%);
+}
   .productsSection:before {
     display:none;
 }
