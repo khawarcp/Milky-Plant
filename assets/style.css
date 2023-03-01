@@ -4800,7 +4800,9 @@ div#insta-feed a * {
     font-size: 14px;
     line-height: normal;
 }
-
+.columnRIghtFooter a:after {
+    opacity: 0;
+}
 .rightFooter h3 {
     font-size: 22px;
     line-height: normal;
