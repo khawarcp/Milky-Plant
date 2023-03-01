@@ -4212,6 +4212,12 @@ svg.modal__toggle-open.icon-search {
   .leftWrapper {
     width: calc(100% - 0px);
 }
+  body.gradient.template-product-wireframe .productsSection.detailproductsSection .container:after {
+    opacity: 0;
+  }
+  body.gradient.template-product-wireframe .productsSection.detailproductsSection .container:before {
+    opacity: 0;
+  }
     .colWrapper {
         width: 100%;
     }
