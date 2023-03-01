@@ -3747,6 +3747,10 @@ header {
   .story {
     background-size: auto;
 }
+  .contentWrapepr span {
+    font-size: 18px;
+    line-height: 24px;
+  }
   
 .paraWrapper p:first-child {
     max-width: 100%;
