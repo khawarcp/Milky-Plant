@@ -385,9 +385,9 @@
     </div>
   </div>
 <script>
-$('.holder.active .opener').click(function(){
-    $(this).closest('.holder').removeClass('active')
-    // $(this).closest('.holder').addClass('active')
+$('.accordion-opener').click(function(){
+    $('.holder').removeClass('active')
+    $(this).closest('.holder').addClass('active')
 })
 </script>
 </footer>
