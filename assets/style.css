@@ -4909,8 +4909,13 @@ section.helo-sec {
 .banenrWrapper1 {
     padding: 80px 0 70px;
 }
+.recp-width p {
+    padding: 3px 0 20px;
+}  
+.recp-width:nth-child(2) img {
+    transform: rotate(0deg);
+}
   
-
   
   
 }  
