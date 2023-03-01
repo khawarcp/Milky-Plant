@@ -4209,6 +4209,9 @@ svg.modal__toggle-open.icon-search {
   .whiteButton {
     width: 211px!important;
 }
+  .leftWrapper {
+    width: calc(100% - 0px);
+}
     .colWrapper {
         width: 100%;
     }
