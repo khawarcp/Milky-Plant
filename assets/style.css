@@ -4198,6 +4198,10 @@ svg.modal__toggle-open.icon-search {
     font-size: 16px;
     padding: 0 0px;
 }
+  .innerSlideContainer {
+    padding-inline: 15px;
+    margin-left: 15px;
+}
     .colWrapper {
         width: 100%;
     }
