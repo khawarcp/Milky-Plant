@@ -4803,6 +4803,10 @@ div#insta-feed a * {
 .columnRIghtFooter a:after {
     opacity: 0;
 }
+  .form__message {
+    margin-top: 50px;
+    font-size: 18px !important;
+}
 .rightFooter h3 {
     font-size: 22px;
     line-height: normal;
