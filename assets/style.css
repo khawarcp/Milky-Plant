@@ -2124,9 +2124,9 @@ section.you-sec .inner-helo {
     background:url('increment.png') no-repeat;
 }
 .material-area .holder.active .opener:after {
-    transform: rotate(45deg);
+/*     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
+    -moz-transform: rotate(45deg); */
 }
 .material-area .holder.active .images{
     display: flex;
