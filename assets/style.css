@@ -3744,6 +3744,10 @@ header {
     letter-spacing: 1.26172px;
     color: #000000;
 }
+  .story {
+    background-size: auto;
+}
+  
 .paraWrapper p:first-child {
     max-width: 100%;
     min-height: auto;
