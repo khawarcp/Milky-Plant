@@ -4973,6 +4973,9 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
   .priceComparison {
     padding-top: 50px;
 }
+  .priceComparisonItems {
+    padding-top: 110px;
+  }
   
 
   
