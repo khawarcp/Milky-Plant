@@ -3326,7 +3326,12 @@ div#insta-feed a {
 .instafeed-container img {
     border-radius: 20px !important;
 }
-
+body.gradient.template-product-wireframe .productsSection:before {
+    opacity: 0;
+}
+body.gradient.template-product-wireframe .productsSection:after {
+    opacity: 0;
+}
 
 /* responsiveness */
 /* ameer stylings ends */
