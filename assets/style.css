@@ -208,6 +208,11 @@ h2 {
     margin-bottom: 20px !important;
 }
 
+.rte strong {
+    font-size: 26px;
+    font-weight: 600;
+}
+
 .buttonBuyNow button {
     background: #F24938;
     border: 10px solid #FFFFFF;
