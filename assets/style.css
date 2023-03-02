@@ -5041,7 +5041,12 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 .gradient.template-index .instafeed-lightbox .lightbox-instagram {
     overflow-x: hidden!important;
 }
-  
+.instafeed-lightbox .lightbox-instagram .name-section {
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    margin-top: 40px;
+}  
   
   
   
