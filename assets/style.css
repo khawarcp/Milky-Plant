@@ -218,6 +218,22 @@ h2 {
     font-weight: 600;
 }
 
+.title-wrapper-with-link a {
+    font-size: 22px;
+    font-family: 'Assistant';
+}
+table.cart-items th {
+    font-size: 20px;
+}
+
+td.cart-item__details a {
+    font-size: 20px;
+}
+
+td.cart-item__details .product-option {
+    font-size: 22px;
+}
+
 .rte{
   font-size: 16px;
 }
