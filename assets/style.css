@@ -1527,7 +1527,7 @@ button.addToCart {
     letter-spacing: 1px;
     color: #1c5597;
     margin-top: 30px;
-    min-height: 75px;
+    min-height: 60px;
 }
 .resc-width:nth-child(3) h3 {
     margin-top: 28px;
@@ -1535,7 +1535,7 @@ button.addToCart {
 .recp-width p {
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 17px;
     line-height: 27px;
     letter-spacing: 1px;
     color: #1C5597;
