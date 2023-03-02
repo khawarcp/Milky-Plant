@@ -5085,7 +5085,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .slector select {
-    background-position: right 21px center;
+    background-position: right 21px center !important;
 }
 
 .footer__content-bottom {
