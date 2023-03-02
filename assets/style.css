@@ -222,6 +222,7 @@ h2 {
     font-size: 22px;
     font-family: 'Assistant';
 }
+
 table.cart-items th {
     font-size: 20px;
 }
@@ -232,6 +233,11 @@ td.cart-item__details a {
 
 td.cart-item__details .product-option {
     font-size: 22px;
+}
+
+.quantity cart-quantity button {
+    border-radius: 100%;
+    width: 50px !important;
 }
 
 .rte{
