@@ -1281,7 +1281,9 @@ button.addToCart {
 .driedPulp {
     padding-top: 0px;
 }
-
+#insta-feed .instafeed-overlay::after, .instafeed-shopify .instafeed-overlay::after {
+    border-radius: 20px;
+}
 
 .containerRow {
     display: flex;
