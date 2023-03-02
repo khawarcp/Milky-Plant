@@ -5038,7 +5038,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 /*     left: -20px; */
     top: -480%;
 }
-
+.instafeed-lightbox .lightbox-instagram {
+    overflow-x: hidden;
+}
+  
   
   
   
