@@ -380,6 +380,10 @@
           font-size: 1.6rem;
         }
       }
+      @media only screen and (max-width: 767px)
+.instafeed-lightbox .lightbox-instagram {
+    overflow-x: hidden!important;
+}
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
