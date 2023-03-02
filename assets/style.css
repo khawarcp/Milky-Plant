@@ -5048,7 +5048,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
     left: 20px !important;
     margin-top: 50px;
 }  
-
+.post-engagement .arrows {
+    display: none !important;
+}
+  
   
   
 } 
