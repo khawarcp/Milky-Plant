@@ -5126,6 +5126,9 @@ h1, h2, h3, h4, h5, h6, p {
     position: initial;
     right: 0;
 }
+  .predictive-search.predictive-search--header ul#predictive-search-results-products-list li {
+    width: 33.33%;
+}
 
 
 }
