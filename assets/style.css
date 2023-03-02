@@ -5091,4 +5091,6 @@ h1, h2, h3, h4, h5, h6, p {
     display: none;
 }
 
-
+.rte strong {
+    letter-spacing: 0px !important;
+}
