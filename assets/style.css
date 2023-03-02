@@ -200,8 +200,8 @@ h2 {
     line-height: 27px;
     letter-spacing: 1px;
     color: #1c5597;
-    max-width: 61%;
-    margin: auto;
+    max-width: 70%;
+    margin: 0 auto 10px; 
 }
 
 .buttonBuyNow button {
