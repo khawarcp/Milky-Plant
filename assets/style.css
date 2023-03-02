@@ -5029,7 +5029,9 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
     z-index: 9999999;
     max-height: 620px;
   }
-  
+  .instafeed-lightbox .lightbox-instagram {
+    padding: 10px;
+}
 
   
   
