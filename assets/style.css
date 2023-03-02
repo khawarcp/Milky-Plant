@@ -1606,8 +1606,13 @@ section.recpe-blogs {
     font-size: 25px;
     line-height: 27px;
     letter-spacing: 1px;
-    color: #1C5597;
+    color: #1c5597;
     padding: 0 46px;
+    appearance: none;
+    background-image: url(https://cdn.shopify.com/s/files/1/0723/4129/1330/files/Path.png?v=1677782675);
+    background-repeat: no-repeat;
+    background-position: right 46px center;
+    background-size: 20px 11px;
 }
 .resc-width h3 {
     font-weight: 700;
