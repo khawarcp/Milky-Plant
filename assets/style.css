@@ -213,6 +213,10 @@ h2 {
     font-weight: 600;
 }
 
+.rte{
+  font-size: 16px;
+}
+
 .buttonBuyNow button {
     background: #F24938;
     border: 10px solid #FFFFFF;
