@@ -5052,3 +5052,10 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 .footer__content-bottom {
     display: none;
 }
+
+
+
+@media only screen and (max-width: 700px)
+.instafeed-lightbox .lightbox-instagram {
+    overflow: hidden!important;
+}
