@@ -5054,7 +5054,9 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
 .instafeed-lightbox .lightbox-instagram .sub-header {
     display: none;
 }
-  
+  h1,h2,h3,h4,h5,h6,p{
+    letter-spacing: 0px !Important;
+  }
   
   
 } 
