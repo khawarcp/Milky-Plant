@@ -5031,9 +5031,13 @@ body.gradient.template-product-wireframe .products:nth-child(3) img {
   }
   .instafeed-lightbox .lightbox-instagram {
     border-radius: 20px;
-    padding: 10px 8px 10px 16px;
+    padding: 40px 8px 10px 16px;
 }
-
+.close-button {
+    z-index: 9999999999999;
+    left: -20px;
+    top: -420%;
+}
   
   
 } 
