@@ -236,8 +236,7 @@ td.cart-item__details .product-option {
 }
 
 .quantity cart-quantity button {
-    border-radius: 100%;
-    width: 50px !important;
+    border: none !important;
 }
 
 .rte{
