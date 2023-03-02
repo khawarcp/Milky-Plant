@@ -126,6 +126,10 @@ header.container.header--has-menu {
     text-align: left;
 }
 
+.slector select {
+    background-position: right 46px center;
+}
+
 .leftBannerWrapper p {
     max-width: 481px;
     min-height: 54px;
@@ -5093,6 +5097,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .rte strong {
     letter-spacing: 0px !important;
-  font-size:18px;
+    font-size:18px;
 }
 }
